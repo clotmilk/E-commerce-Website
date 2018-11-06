@@ -67,7 +67,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "li{\r\n\tlist-style: none;\r\n\r\n}\r\nh2{\r\n\twidth: 100%;\r\n\ttext-align: center;\r\n\tcolor: #C3EEF2;\r\n\tfont-weight: bold;\r\n}\r\nh1{\r\n\ttext-align: center;\r\n\twidth: 100%;\r\n\tfont-weight: bold;\r\n\tmargin-bottom: 10px;\r\n}\r\n.border{\r\n\twidth: 100%;\r\n\theight: 2px;\r\n\tbackground-color: black;\r\n\tmargin-top: 10px;\r\n}\r\n#navbarid{\r\n\tbackground-image: linear-gradient(45deg,#ADEAEF,#C3EEF2);\r\n}\r\n#searchimg{\r\n\twidth: 20px;\r\n\theight: 20px;\r\n}\r\n.clock{\r\n\t/*border:1px solid black;*/\r\n\theight: 50px;\r\n\twidth:100px;\r\n}\r\n.unit{\r\n\tline-height: 50px;\r\n\tfloat:right;\r\n\tfont-size: 15px;\r\n\tfont-weight: bold;\r\n}\r\n#carousel-example-generic{\r\n\tmargin-top: 51px;\r\n\t/*border:1px solid black;*/\r\n\theight: 400px;\r\n}\r\n.carousel-inner{\r\n\twidth: 100%;\r\n\theight: 100%;\t\r\n}\r\n.carousel-inner img{\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n#pig{\r\n\twidth: 80%;\r\n\r\n}\r\n.carousel-caption{\r\n\t/*border:1px solid black;*/\r\n\tmargin-bottom: 32%;\r\n}\r\n.pigbtn{\r\n\tfloat: right;\r\n\theight: 50px;\r\n\twidth:150px;\r\n\tbackground-color: #22C7C2;\r\n\tborder-radius: 5px;\r\n}\r\n.pigCap{\r\n\tmargin-bottom:15%;\r\n}\r\n.jumbotron{\r\n\tmargin-top: 10px;\r\n}\r\n.foot2{\r\n\tmargin-top: 10px;\r\n\theight: 25px;\r\n\twidth: 100%;\r\n\tborder-top:2px solid black;\r\n}\r\n.foot2>li{\r\n\tfloat: left;\r\n\tmargin:0 20px;\r\n}\r\n.foot2>span{\r\n\tfloat: right;\r\n}\r\n.foot{\r\n\twidth: 100%;\r\n\theight: 300px;\r\n\tborder-top:2px solid black;\r\n\tmargin-top: 40px;\r\n}\r\n.footContent{\r\n\twidth: 25%;\r\n\theight: 100%;\r\n\t/*border:1px solid red;*/\r\n\tfloat:left;\r\n}\r\n.footContent>li{\r\n\tmargin-top: 10px;\r\n\ttext-align: center;\r\n\tcolor: #333;\r\n}\r\n.footContent>li>a{\r\n\tcolor: #555;\r\n\r\n}\r\n.foot2>li>a{\r\n\tcolor: #555;\r\n\r\n}\r\n.nav-tabs>li{\r\n\tmargin-right: 50px;\r\n}\r\n.tab-pane .row .col-md-4{\r\n\toverflow: hidden;\r\n\tmargin-top: 20px;\r\n\tmargin-left: 120px;\r\n\theight: 200px;\r\n\twidth: 200px;\r\n\r\n}\r\n.tab-pane .row .col-md-4>img{\r\n\theight: 100%;\r\n\twidth: 100%;\r\n}\r\n.tab-pane .row .col-md-4>a{\r\n\t\r\n\tposition: absolute;\r\n\tbottom: 0;\r\n\tleft: 43%;\r\n\tcolor: red;\r\n\tfont-weight: bold;\r\n}\r\n.tab-pane .row .col-md-4>a>img{\r\n\twidth: 15px;\r\n\theight: 15px;\r\n\tcursor: pointer;\r\n}\r\n.nav-tabs>li{\r\n\tfont-weight:bold;\r\n\t\r\n}\r\n.nav-tabs>li>a{\r\n\tcolor:black;\r\n}\r\n#sort{\r\n\tline-height: 40px;\r\n}\r\n.col-md-4 span{\r\n\ttext-align: center;\r\n\tposition: absolute;\r\n\tdisplay: block;\r\n\tbackground: rgba(33,33,33,0.4);\r\n\tleft: -100%;\r\n\ttop: 0;\r\n\ttransition: all 0.5 ease;\r\n\tcolor: white;\r\n\tfont-size: 15px;\r\n\tfont-weight: bold;\r\n\twidth: 100%;\r\n\theight: 90%;\r\n}\r\n.col-md-4:hover span{\r\n\tleft: 0;\r\n\ttop: 0;\r\n}\r\n#loginBtn{\r\n\tline-height: 50px;\r\n\tmargin-left: 20px;\r\n\tcursor: pointer;\r\n}\r\n.lgModal{\r\n\toverflow: hidden;\r\n\theight: 400px;\r\n\twidth: 40%;\r\n\tborder-radius: 10px;\r\n\tborder:1px solid black;\r\n\tpadding-top: 2%;\r\n\ttop: 25%;\r\n\tleft: 25%;\r\n\tposition: fixed;\r\n\tz-index: 100;\r\n\tbackground-color: #ADEAEF;\r\n\tdisplay: none;\r\n\r\n}\r\n.modal-content{\r\n\tborder:none;\r\n\tbox-shadow: none;\r\n\r\n}\r\n.modal-content>input{\r\n\tborder:2px solid #BDEAEF ;\r\n\twidth: 50%;\r\n\theight: 50px;\r\n\tmargin:10px 25%;\r\n\tborder-radius: 5px;\r\n\t\r\n\t\r\n}\r\n.modal-content>label{\r\n\tfont-size: 15px;\r\n\tfont-weight: bold;\r\n\ttext-align: center;\r\n\twidth: 100%;\r\n\tmargin-bottom: 10px;\r\n\t\r\n}\r\n.modal-content>button{\r\n\twidth: 50%;\r\n\tmargin:15px 25%;\r\n}\r\n.lgModal>img{\r\n\tmargin-top:0;\r\n\theight: 22px;\r\n\twidth: 22px;\r\n\tfloat: right;\r\n\tcursor: pointer;\r\n}\r\n::-webkit-input-placeholder{\r\n\ttext-align: center;\r\n\tfont-weight: bold;\r\n}\r\n::-ms-input-placeholder{\r\n\ttext-align: center;\r\n\tfont-weight: bold;\r\n}\r\n::placeholder{\r\n\ttext-align: center;\r\n\tfont-weight: bold;\r\n}\r\n.animate{\r\n\t-webkit-animation:animatezoom 0.5s;\r\n\tanimation: animatezoom 0.5s;\r\n}\r\n@-webkit-keyframes animatezoom {\r\n\tfrom{-webkit-transform:scale(0);}\r\n\tto {-webkit-transform:scale(1);}\r\n}\r\n.cart{\r\n\tposition: fixed;\r\n\toverflow: hidden;\r\n\ttop:10%;\r\n\tright: 2%;\r\n\twidth: 15%;\r\n\theight: auto;\r\n\tborder:2px solid black;\r\n\tborder-radius: 5px;\r\n}\r\n.cart>button{\r\n\toverflow: hidden;\r\n\twidth: 28%;\r\n\tmargin-left: 10px;\r\n}\r\n.cart>img{\r\n\theight: 20px;\r\n\twidth: 20px;\r\n}\r\n.sideNav{\r\n\tposition: fixed;\r\n\ttop: 52px;\r\n\tleft: 0;\r\n\t\r\n}\r\n.list_dt{\r\n\r\n    background: white;\r\n    color: black;\r\n    width: 120px;\r\n    padding: 0 40px 0 20px;\r\n    height: 34px;\r\n    line-height: 34px;\r\n    cursor: pointer;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n    position: relative;\r\n    border-bottom: 1px solid #464646;\r\n}\r\n.list_dt:hover{\r\n    background: #ADEAEF;\r\n}\r\n.list_dt:hover ._after{\r\n    display: block;\r\n    width: 3px;\r\n    height: 100%;\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    background: #ADEAEF;\r\n}\r\n#open{\r\n    background: white;\r\n}\r\n#open ._after{\r\n    display: block;\r\n    width: 3px;\r\n    height: 100%;\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    background: #ADEAEF;\r\n}\r\n.list_dt_icon{\r\n    position: absolute;\r\n    right: 10px;\r\n    top: 11px;\r\n    display: block;\r\n    width: 12px;\r\n    height: 12px;\r\n    \r\n    background-size: cover;\r\n}\r\n#open .list_dt_icon{\r\n    \r\n    background-size: cover;\r\n}\r\n.list_dd{\r\n    display: none;\r\n}\r\n.list_li{\r\n    background: white;\r\n    list-style-type: none;\r\n    color: black;\r\n    width: 120px;\r\n    padding: 0 30px;\r\n    height: 34px;\r\n    line-height: 34px;\r\n    cursor: pointer;\r\n    border-bottom: 1px solid #6b6b6b;\r\n}\r\n.list_li:hover{\r\n    background: #999;\r\n}\r\n\r\n\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxpQkFBaUI7O0NBRWpCO0FBQ0Q7Q0FDQyxZQUFZO0NBQ1osbUJBQW1CO0NBQ25CLGVBQWU7Q0FDZixrQkFBa0I7Q0FDbEI7QUFDRDtDQUNDLG1CQUFtQjtDQUNuQixZQUFZO0NBQ1osa0JBQWtCO0NBQ2xCLG9CQUFvQjtDQUNwQjtBQUNEO0NBQ0MsWUFBWTtDQUNaLFlBQVk7Q0FDWix3QkFBd0I7Q0FDeEIsaUJBQWlCO0NBQ2pCO0FBQ0Q7Q0FDQyx5REFBeUQ7Q0FDekQ7QUFDRDtDQUNDLFlBQVk7Q0FDWixhQUFhO0NBQ2I7QUFDRDtDQUNDLDJCQUEyQjtDQUMzQixhQUFhO0NBQ2IsWUFBWTtDQUNaO0FBQ0Q7Q0FDQyxrQkFBa0I7Q0FDbEIsWUFBWTtDQUNaLGdCQUFnQjtDQUNoQixrQkFBa0I7Q0FDbEI7QUFDRDtDQUNDLGlCQUFpQjtDQUNqQiwyQkFBMkI7Q0FDM0IsY0FBYztDQUNkO0FBQ0Q7Q0FDQyxZQUFZO0NBQ1osYUFBYTtDQUNiO0FBQ0Q7Q0FDQyxZQUFZO0NBQ1osYUFBYTtDQUNiO0FBQ0Q7Q0FDQyxXQUFXOztDQUVYO0FBQ0Q7Q0FDQywyQkFBMkI7Q0FDM0IsbUJBQW1CO0NBQ25CO0FBRUQ7Q0FDQyxhQUFhO0NBQ2IsYUFBYTtDQUNiLFlBQVk7Q0FDWiwwQkFBMEI7Q0FDMUIsbUJBQW1CO0NBQ25CO0FBQ0Q7Q0FDQyxrQkFBa0I7Q0FDbEI7QUFDRDtDQUNDLGlCQUFpQjtDQUNqQjtBQUNEO0NBQ0MsaUJBQWlCO0NBQ2pCLGFBQWE7Q0FDYixZQUFZO0NBQ1osMkJBQTJCO0NBQzNCO0FBQ0Q7Q0FDQyxZQUFZO0NBQ1osY0FBYztDQUNkO0FBQ0Q7Q0FDQyxhQUFhO0NBQ2I7QUFDRDtDQUNDLFlBQVk7Q0FDWixjQUFjO0NBQ2QsMkJBQTJCO0NBQzNCLGlCQUFpQjtDQUNqQjtBQUNEO0NBQ0MsV0FBVztDQUNYLGFBQWE7Q0FDYix5QkFBeUI7Q0FDekIsV0FBVztDQUNYO0FBQ0Q7Q0FDQyxpQkFBaUI7Q0FDakIsbUJBQW1CO0NBQ25CLFlBQVk7Q0FDWjtBQUNEO0NBQ0MsWUFBWTs7Q0FFWjtBQUNEO0NBQ0MsWUFBWTs7Q0FFWjtBQUVEO0NBQ0MsbUJBQW1CO0NBQ25CO0FBRUQ7Q0FDQyxpQkFBaUI7Q0FDakIsaUJBQWlCO0NBQ2pCLG1CQUFtQjtDQUNuQixjQUFjO0NBQ2QsYUFBYTs7Q0FFYjtBQUVEO0NBQ0MsYUFBYTtDQUNiLFlBQVk7Q0FDWjtBQUVEOztDQUVDLG1CQUFtQjtDQUNuQixVQUFVO0NBQ1YsVUFBVTtDQUNWLFdBQVc7Q0FDWCxrQkFBa0I7Q0FDbEI7QUFDRDtDQUNDLFlBQVk7Q0FDWixhQUFhO0NBQ2IsZ0JBQWdCO0NBQ2hCO0FBQ0Q7Q0FDQyxpQkFBaUI7O0NBRWpCO0FBQ0Q7Q0FDQyxZQUFZO0NBQ1o7QUFFRDtDQUNDLGtCQUFrQjtDQUNsQjtBQUVEO0NBQ0MsbUJBQW1CO0NBQ25CLG1CQUFtQjtDQUNuQixlQUFlO0NBQ2YsK0JBQStCO0NBQy9CLFlBQVk7Q0FDWixPQUFPO0NBQ1AseUJBQXlCO0NBQ3pCLGFBQWE7Q0FDYixnQkFBZ0I7Q0FDaEIsa0JBQWtCO0NBQ2xCLFlBQVk7Q0FDWixZQUFZO0NBQ1o7QUFFRDtDQUNDLFFBQVE7Q0FDUixPQUFPO0NBQ1A7QUFDRDtDQUNDLGtCQUFrQjtDQUNsQixrQkFBa0I7Q0FDbEIsZ0JBQWdCO0NBQ2hCO0FBQ0Q7Q0FDQyxpQkFBaUI7Q0FDakIsY0FBYztDQUNkLFdBQVc7Q0FDWCxvQkFBb0I7Q0FDcEIsdUJBQXVCO0NBQ3ZCLGdCQUFnQjtDQUNoQixTQUFTO0NBQ1QsVUFBVTtDQUNWLGdCQUFnQjtDQUNoQixhQUFhO0NBQ2IsMEJBQTBCO0NBQzFCLGNBQWM7O0NBRWQ7QUFDRDtDQUNDLFlBQVk7Q0FDWixpQkFBaUI7O0NBRWpCO0FBQ0Q7Q0FDQywwQkFBMEI7Q0FDMUIsV0FBVztDQUNYLGFBQWE7Q0FDYixnQkFBZ0I7Q0FDaEIsbUJBQW1COzs7Q0FHbkI7QUFDRDtDQUNDLGdCQUFnQjtDQUNoQixrQkFBa0I7Q0FDbEIsbUJBQW1CO0NBQ25CLFlBQVk7Q0FDWixvQkFBb0I7O0NBRXBCO0FBQ0Q7Q0FDQyxXQUFXO0NBQ1gsZ0JBQWdCO0NBQ2hCO0FBQ0Q7Q0FDQyxhQUFhO0NBQ2IsYUFBYTtDQUNiLFlBQVk7Q0FDWixhQUFhO0NBQ2IsZ0JBQWdCO0NBQ2hCO0FBRUQ7Q0FDQyxtQkFBbUI7Q0FDbkIsa0JBQWtCO0NBQ2xCO0FBSEQ7Q0FDQyxtQkFBbUI7Q0FDbkIsa0JBQWtCO0NBQ2xCO0FBSEQ7Q0FDQyxtQkFBbUI7Q0FDbkIsa0JBQWtCO0NBQ2xCO0FBRUQ7Q0FDQyxtQ0FBbUM7Q0FDbkMsNEJBQTRCO0NBQzVCO0FBRUQ7Q0FDQyxLQUFLLDJCQUEyQixDQUFDO0NBQ2pDLElBQUksMkJBQTJCLENBQUM7Q0FDaEM7QUFFRDtDQUNDLGdCQUFnQjtDQUNoQixpQkFBaUI7Q0FDakIsUUFBUTtDQUNSLFVBQVU7Q0FDVixXQUFXO0NBQ1gsYUFBYTtDQUNiLHVCQUF1QjtDQUN2QixtQkFBbUI7Q0FDbkI7QUFFRDtDQUNDLGlCQUFpQjtDQUNqQixXQUFXO0NBQ1gsa0JBQWtCO0NBQ2xCO0FBQ0Q7Q0FDQyxhQUFhO0NBQ2IsWUFBWTtDQUNaO0FBQ0Q7Q0FDQyxnQkFBZ0I7Q0FDaEIsVUFBVTtDQUNWLFFBQVE7O0NBRVI7QUFFRDs7SUFFSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsYUFBYTtJQUNiLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLHdCQUF3QjtJQUN4QixvQkFBb0I7SUFDcEIsbUJBQW1CO0lBQ25CLGlDQUFpQztDQUNwQztBQUNEO0lBQ0ksb0JBQW9CO0NBQ3ZCO0FBQ0Q7SUFDSSxlQUFlO0lBQ2YsV0FBVztJQUNYLGFBQWE7SUFDYixtQkFBbUI7SUFDbkIsUUFBUTtJQUNSLE9BQU87SUFDUCxvQkFBb0I7Q0FDdkI7QUFDRDtJQUNJLGtCQUFrQjtDQUNyQjtBQUNEO0lBQ0ksZUFBZTtJQUNmLFdBQVc7SUFDWCxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLFFBQVE7SUFDUixPQUFPO0lBQ1Asb0JBQW9CO0NBQ3ZCO0FBQ0Q7SUFDSSxtQkFBbUI7SUFDbkIsWUFBWTtJQUNaLFVBQVU7SUFDVixlQUFlO0lBQ2YsWUFBWTtJQUNaLGFBQWE7O0lBRWIsdUJBQXVCO0NBQzFCO0FBQ0Q7O0lBRUksdUJBQXVCO0NBQzFCO0FBQ0Q7SUFDSSxjQUFjO0NBQ2pCO0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0lBQ3RCLGFBQWE7SUFDYixhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLGlDQUFpQztDQUNwQztBQUNEO0lBQ0ksaUJBQWlCO0NBQ3BCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJsaXtcclxuXHRsaXN0LXN0eWxlOiBub25lO1xyXG5cclxufVxyXG5oMntcclxuXHR3aWR0aDogMTAwJTtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0Y29sb3I6ICNDM0VFRjI7XHJcblx0Zm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuaDF7XHJcblx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbn1cclxuLmJvcmRlcntcclxuXHR3aWR0aDogMTAwJTtcclxuXHRoZWlnaHQ6IDJweDtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuXHRtYXJnaW4tdG9wOiAxMHB4O1xyXG59XHJcbiNuYXZiYXJpZHtcclxuXHRiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoNDVkZWcsI0FERUFFRiwjQzNFRUYyKTtcclxufVxyXG4jc2VhcmNoaW1ne1xyXG5cdHdpZHRoOiAyMHB4O1xyXG5cdGhlaWdodDogMjBweDtcclxufVxyXG4uY2xvY2t7XHJcblx0Lypib3JkZXI6MXB4IHNvbGlkIGJsYWNrOyovXHJcblx0aGVpZ2h0OiA1MHB4O1xyXG5cdHdpZHRoOjEwMHB4O1xyXG59XHJcbi51bml0e1xyXG5cdGxpbmUtaGVpZ2h0OiA1MHB4O1xyXG5cdGZsb2F0OnJpZ2h0O1xyXG5cdGZvbnQtc2l6ZTogMTVweDtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4jY2Fyb3VzZWwtZXhhbXBsZS1nZW5lcmlje1xyXG5cdG1hcmdpbi10b3A6IDUxcHg7XHJcblx0Lypib3JkZXI6MXB4IHNvbGlkIGJsYWNrOyovXHJcblx0aGVpZ2h0OiA0MDBweDtcclxufVxyXG4uY2Fyb3VzZWwtaW5uZXJ7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0aGVpZ2h0OiAxMDAlO1x0XHJcbn1cclxuLmNhcm91c2VsLWlubmVyIGltZ3tcclxuXHR3aWR0aDogMTAwJTtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcbn1cclxuI3BpZ3tcclxuXHR3aWR0aDogODAlO1xyXG5cclxufVxyXG4uY2Fyb3VzZWwtY2FwdGlvbntcclxuXHQvKmJvcmRlcjoxcHggc29saWQgYmxhY2s7Ki9cclxuXHRtYXJnaW4tYm90dG9tOiAzMiU7XHJcbn1cclxuXHJcbi5waWdidG57XHJcblx0ZmxvYXQ6IHJpZ2h0O1xyXG5cdGhlaWdodDogNTBweDtcclxuXHR3aWR0aDoxNTBweDtcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOiAjMjJDN0MyO1xyXG5cdGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG4ucGlnQ2Fwe1xyXG5cdG1hcmdpbi1ib3R0b206MTUlO1xyXG59XHJcbi5qdW1ib3Ryb257XHJcblx0bWFyZ2luLXRvcDogMTBweDtcclxufVxyXG4uZm9vdDJ7XHJcblx0bWFyZ2luLXRvcDogMTBweDtcclxuXHRoZWlnaHQ6IDI1cHg7XHJcblx0d2lkdGg6IDEwMCU7XHJcblx0Ym9yZGVyLXRvcDoycHggc29saWQgYmxhY2s7XHJcbn1cclxuLmZvb3QyPmxpe1xyXG5cdGZsb2F0OiBsZWZ0O1xyXG5cdG1hcmdpbjowIDIwcHg7XHJcbn1cclxuLmZvb3QyPnNwYW57XHJcblx0ZmxvYXQ6IHJpZ2h0O1xyXG59XHJcbi5mb290e1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGhlaWdodDogMzAwcHg7XHJcblx0Ym9yZGVyLXRvcDoycHggc29saWQgYmxhY2s7XHJcblx0bWFyZ2luLXRvcDogNDBweDtcclxufVxyXG4uZm9vdENvbnRlbnR7XHJcblx0d2lkdGg6IDI1JTtcclxuXHRoZWlnaHQ6IDEwMCU7XHJcblx0Lypib3JkZXI6MXB4IHNvbGlkIHJlZDsqL1xyXG5cdGZsb2F0OmxlZnQ7XHJcbn1cclxuLmZvb3RDb250ZW50Pmxpe1xyXG5cdG1hcmdpbi10b3A6IDEwcHg7XHJcblx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG5cdGNvbG9yOiAjMzMzO1xyXG59XHJcbi5mb290Q29udGVudD5saT5he1xyXG5cdGNvbG9yOiAjNTU1O1xyXG5cclxufVxyXG4uZm9vdDI+bGk+YXtcclxuXHRjb2xvcjogIzU1NTtcclxuXHJcbn1cclxuXHJcbi5uYXYtdGFicz5saXtcclxuXHRtYXJnaW4tcmlnaHQ6IDUwcHg7XHJcbn1cclxuXHJcbi50YWItcGFuZSAucm93IC5jb2wtbWQtNHtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdG1hcmdpbi10b3A6IDIwcHg7XHJcblx0bWFyZ2luLWxlZnQ6IDEyMHB4O1xyXG5cdGhlaWdodDogMjAwcHg7XHJcblx0d2lkdGg6IDIwMHB4O1xyXG5cclxufSBcclxuXHJcbi50YWItcGFuZSAucm93IC5jb2wtbWQtND5pbWd7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4udGFiLXBhbmUgLnJvdyAuY29sLW1kLTQ+YXtcclxuXHRcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0Ym90dG9tOiAwO1xyXG5cdGxlZnQ6IDQzJTtcclxuXHRjb2xvcjogcmVkO1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcbi50YWItcGFuZSAucm93IC5jb2wtbWQtND5hPmltZ3tcclxuXHR3aWR0aDogMTVweDtcclxuXHRoZWlnaHQ6IDE1cHg7XHJcblx0Y3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5uYXYtdGFicz5saXtcclxuXHRmb250LXdlaWdodDpib2xkO1xyXG5cdFxyXG59XHJcbi5uYXYtdGFicz5saT5he1xyXG5cdGNvbG9yOmJsYWNrO1xyXG59XHJcblxyXG4jc29ydHtcclxuXHRsaW5lLWhlaWdodDogNDBweDtcclxufVxyXG5cclxuLmNvbC1tZC00IHNwYW57XHJcblx0dGV4dC1hbGlnbjogY2VudGVyO1xyXG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHRkaXNwbGF5OiBibG9jaztcclxuXHRiYWNrZ3JvdW5kOiByZ2JhKDMzLDMzLDMzLDAuNCk7XHJcblx0bGVmdDogLTEwMCU7XHJcblx0dG9wOiAwO1xyXG5cdHRyYW5zaXRpb246IGFsbCAwLjUgZWFzZTtcclxuXHRjb2xvcjogd2hpdGU7XHJcblx0Zm9udC1zaXplOiAxNXB4O1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGhlaWdodDogOTAlO1xyXG59XHJcblxyXG4uY29sLW1kLTQ6aG92ZXIgc3BhbntcclxuXHRsZWZ0OiAwO1xyXG5cdHRvcDogMDtcclxufVxyXG4jbG9naW5CdG57XHJcblx0bGluZS1oZWlnaHQ6IDUwcHg7XHJcblx0bWFyZ2luLWxlZnQ6IDIwcHg7XHJcblx0Y3Vyc29yOiBwb2ludGVyO1xyXG59XHJcbi5sZ01vZGFse1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0aGVpZ2h0OiA0MDBweDtcclxuXHR3aWR0aDogNDAlO1xyXG5cdGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcblx0Ym9yZGVyOjFweCBzb2xpZCBibGFjaztcclxuXHRwYWRkaW5nLXRvcDogMiU7XHJcblx0dG9wOiAyNSU7XHJcblx0bGVmdDogMjUlO1xyXG5cdHBvc2l0aW9uOiBmaXhlZDtcclxuXHR6LWluZGV4OiAxMDA7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogI0FERUFFRjtcclxuXHRkaXNwbGF5OiBub25lO1xyXG5cclxufVxyXG4ubW9kYWwtY29udGVudHtcclxuXHRib3JkZXI6bm9uZTtcclxuXHRib3gtc2hhZG93OiBub25lO1xyXG5cclxufVxyXG4ubW9kYWwtY29udGVudD5pbnB1dHtcclxuXHRib3JkZXI6MnB4IHNvbGlkICNCREVBRUYgO1xyXG5cdHdpZHRoOiA1MCU7XHJcblx0aGVpZ2h0OiA1MHB4O1xyXG5cdG1hcmdpbjoxMHB4IDI1JTtcclxuXHRib3JkZXItcmFkaXVzOiA1cHg7XHJcblx0XHJcblx0XHJcbn1cclxuLm1vZGFsLWNvbnRlbnQ+bGFiZWx7XHJcblx0Zm9udC1zaXplOiAxNXB4O1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHR3aWR0aDogMTAwJTtcclxuXHRtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG5cdFxyXG59XHJcbi5tb2RhbC1jb250ZW50PmJ1dHRvbntcclxuXHR3aWR0aDogNTAlO1xyXG5cdG1hcmdpbjoxNXB4IDI1JTtcclxufVxyXG4ubGdNb2RhbD5pbWd7XHJcblx0bWFyZ2luLXRvcDowO1xyXG5cdGhlaWdodDogMjJweDtcclxuXHR3aWR0aDogMjJweDtcclxuXHRmbG9hdDogcmlnaHQ7XHJcblx0Y3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG46OnBsYWNlaG9sZGVye1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLmFuaW1hdGV7XHJcblx0LXdlYmtpdC1hbmltYXRpb246YW5pbWF0ZXpvb20gMC41cztcclxuXHRhbmltYXRpb246IGFuaW1hdGV6b29tIDAuNXM7XHJcbn1cclxuXHJcbkAtd2Via2l0LWtleWZyYW1lcyBhbmltYXRlem9vbSB7XHJcblx0ZnJvbXstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgwKTt9XHJcblx0dG8gey13ZWJraXQtdHJhbnNmb3JtOnNjYWxlKDEpO31cclxufVxyXG5cclxuLmNhcnR7XHJcblx0cG9zaXRpb246IGZpeGVkO1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0dG9wOjEwJTtcclxuXHRyaWdodDogMiU7XHJcblx0d2lkdGg6IDE1JTtcclxuXHRoZWlnaHQ6IGF1dG87XHJcblx0Ym9yZGVyOjJweCBzb2xpZCBibGFjaztcclxuXHRib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuXHJcbi5jYXJ0PmJ1dHRvbntcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHdpZHRoOiAyOCU7XHJcblx0bWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLmNhcnQ+aW1ne1xyXG5cdGhlaWdodDogMjBweDtcclxuXHR3aWR0aDogMjBweDtcclxufVxyXG4uc2lkZU5hdntcclxuXHRwb3NpdGlvbjogZml4ZWQ7XHJcblx0dG9wOiA1MnB4O1xyXG5cdGxlZnQ6IDA7XHJcblx0XHJcbn1cclxuXHJcbi5saXN0X2R0e1xyXG5cclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgd2lkdGg6IDEyMHB4O1xyXG4gICAgcGFkZGluZzogMCA0MHB4IDAgMjBweDtcclxuICAgIGhlaWdodDogMzRweDtcclxuICAgIGxpbmUtaGVpZ2h0OiAzNHB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzO1xyXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjNDY0NjQ2O1xyXG59XHJcbi5saXN0X2R0OmhvdmVye1xyXG4gICAgYmFja2dyb3VuZDogI0FERUFFRjtcclxufVxyXG4ubGlzdF9kdDpob3ZlciAuX2FmdGVye1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB3aWR0aDogM3B4O1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHRvcDogMDtcclxuICAgIGJhY2tncm91bmQ6ICNBREVBRUY7XHJcbn1cclxuI29wZW57XHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxufVxyXG4jb3BlbiAuX2FmdGVye1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB3aWR0aDogM3B4O1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgbGVmdDogMDtcclxuICAgIHRvcDogMDtcclxuICAgIGJhY2tncm91bmQ6ICNBREVBRUY7XHJcbn1cclxuLmxpc3RfZHRfaWNvbntcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHJpZ2h0OiAxMHB4O1xyXG4gICAgdG9wOiAxMXB4O1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB3aWR0aDogMTJweDtcclxuICAgIGhlaWdodDogMTJweDtcclxuICAgIFxyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxufVxyXG4jb3BlbiAubGlzdF9kdF9pY29ue1xyXG4gICAgXHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG59XHJcbi5saXN0X2Rke1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxufVxyXG4ubGlzdF9saXtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG4gICAgd2lkdGg6IDEyMHB4O1xyXG4gICAgcGFkZGluZzogMCAzMHB4O1xyXG4gICAgaGVpZ2h0OiAzNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDM0cHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgIzZiNmI2YjtcclxufVxyXG4ubGlzdF9saTpob3ZlcntcclxuICAgIGJhY2tncm91bmQ6ICM5OTk7XHJcbn1cclxuXHJcblxyXG5cclxuIl19 */"
+module.exports = "\r\nli{\r\n  list-style: none;\r\n}\r\n.\r\n.srchText{\r\n  line-height: 30px;\r\n  border-radius: 5px;\r\n  width: 70%;\r\n}\r\n#searchimg{\r\n\twidth: 20px;\r\n\theight: 20px;\r\n}\r\n#kkk{\r\n  background-color: rgb(247, 242, 223);\r\n  font-weight: bold;\r\n}\r\n::-webkit-input-placeholder{\r\n\ttext-align: center;\r\n\tfont-weight: bold;\r\n}\r\n::-ms-input-placeholder{\r\n\ttext-align: center;\r\n\tfont-weight: bold;\r\n}\r\n::placeholder{\r\n\ttext-align: center;\r\n\tfont-weight: bold;\r\n}\r\n.nav-link{\r\n  color: black;\r\n  font-style: italic ;\r\n  font-weight: bold;\r\n}\r\n.nav {\r\n  background-image: linear-gradient(45deg,#ADEAEF,#C3EEF2);\r\n  border:none;\r\n}\r\n#loginBtn{\r\n\tline-height: 15px;\r\n\tmargin-left: 500px;\r\n  cursor: pointer;\r\n\r\n}\r\n.lgModal{\r\n\toverflow: hidden;\r\n\theight: 400px;\r\n\twidth: 40%;\r\n\tborder-radius: 10px;\r\n\tborder:4px solid rgb(3, 102, 72);\r\n\tpadding-top: 2%;\r\n\ttop: 25%;\r\n\tleft: 25%;\r\n\tposition: fixed;\r\n\tz-index: 100;\r\n\tbackground-color: white;\r\n\tdisplay: none;\r\n\r\n}\r\n.modal-content{\r\n\tborder:none;\r\n\tbox-shadow: none;\r\n\r\n}\r\n.modal-content>input{\r\n\tborder:2px solid #BDEAEF ;\r\n\twidth: 50%;\r\n\theight: 50px;\r\n\tmargin:10px 25%;\r\n\tborder-radius: 5px;\r\n\r\n\r\n}\r\n.modal-content>label{\r\n\tfont-size: 15px;\r\n\tfont-weight: bold;\r\n\ttext-align: center;\r\n\twidth: 100%;\r\n\tmargin-bottom: 10px;\r\n\r\n}\r\n.modal-content>button{\r\n\twidth: 50%;\r\n\tmargin:15px 25%;\r\n}\r\n.lgModal>img{\r\n\tmargin-top:0;\r\n\theight: 22px;\r\n\twidth: 22px;\r\n\tfloat: right;\r\n\tcursor: pointer;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0UsaUJBQWlCO0NBQ2xCO0FBQ0Q7O0VBRUUsa0JBQWtCO0VBQ2xCLG1CQUFtQjtFQUNuQixXQUFXO0NBQ1o7QUFFRDtDQUNDLFlBQVk7Q0FDWixhQUFhO0NBQ2I7QUFDRDtFQUNFLHFDQUFxQztFQUNyQyxrQkFBa0I7Q0FDbkI7QUFDRDtDQUNDLG1CQUFtQjtDQUNuQixrQkFBa0I7Q0FDbEI7QUFIRDtDQUNDLG1CQUFtQjtDQUNuQixrQkFBa0I7Q0FDbEI7QUFIRDtDQUNDLG1CQUFtQjtDQUNuQixrQkFBa0I7Q0FDbEI7QUFDRDtFQUNFLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsa0JBQWtCO0NBQ25CO0FBQ0Q7RUFDRSx5REFBeUQ7RUFDekQsWUFBWTtDQUNiO0FBR0Q7Q0FDQyxrQkFBa0I7Q0FDbEIsbUJBQW1CO0VBQ2xCLGdCQUFnQjs7Q0FFakI7QUFDRDtDQUNDLGlCQUFpQjtDQUNqQixjQUFjO0NBQ2QsV0FBVztDQUNYLG9CQUFvQjtDQUNwQixpQ0FBaUM7Q0FDakMsZ0JBQWdCO0NBQ2hCLFNBQVM7Q0FDVCxVQUFVO0NBQ1YsZ0JBQWdCO0NBQ2hCLGFBQWE7Q0FDYix3QkFBd0I7Q0FDeEIsY0FBYzs7Q0FFZDtBQUNEO0NBQ0MsWUFBWTtDQUNaLGlCQUFpQjs7Q0FFakI7QUFDRDtDQUNDLDBCQUEwQjtDQUMxQixXQUFXO0NBQ1gsYUFBYTtDQUNiLGdCQUFnQjtDQUNoQixtQkFBbUI7OztDQUduQjtBQUNEO0NBQ0MsZ0JBQWdCO0NBQ2hCLGtCQUFrQjtDQUNsQixtQkFBbUI7Q0FDbkIsWUFBWTtDQUNaLG9CQUFvQjs7Q0FFcEI7QUFDRDtDQUNDLFdBQVc7Q0FDWCxnQkFBZ0I7Q0FDaEI7QUFDRDtDQUNDLGFBQWE7Q0FDYixhQUFhO0NBQ2IsWUFBWTtDQUNaLGFBQWE7Q0FDYixnQkFBZ0I7Q0FDaEIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5saXtcclxuICBsaXN0LXN0eWxlOiBub25lO1xyXG59XHJcbi5cclxuLnNyY2hUZXh0e1xyXG4gIGxpbmUtaGVpZ2h0OiAzMHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICB3aWR0aDogNzAlO1xyXG59XHJcblxyXG4jc2VhcmNoaW1ne1xyXG5cdHdpZHRoOiAyMHB4O1xyXG5cdGhlaWdodDogMjBweDtcclxufVxyXG4ja2tre1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDcsIDI0MiwgMjIzKTtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG46OnBsYWNlaG9sZGVye1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4ubmF2LWxpbmt7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYyA7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuLm5hdiB7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KDQ1ZGVnLCNBREVBRUYsI0MzRUVGMik7XHJcbiAgYm9yZGVyOm5vbmU7XHJcbn1cclxuXHJcblxyXG4jbG9naW5CdG57XHJcblx0bGluZS1oZWlnaHQ6IDE1cHg7XHJcblx0bWFyZ2luLWxlZnQ6IDUwMHB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuXHJcbn1cclxuLmxnTW9kYWx7XHJcblx0b3ZlcmZsb3c6IGhpZGRlbjtcclxuXHRoZWlnaHQ6IDQwMHB4O1xyXG5cdHdpZHRoOiA0MCU7XHJcblx0Ym9yZGVyLXJhZGl1czogMTBweDtcclxuXHRib3JkZXI6NHB4IHNvbGlkIHJnYigzLCAxMDIsIDcyKTtcclxuXHRwYWRkaW5nLXRvcDogMiU7XHJcblx0dG9wOiAyNSU7XHJcblx0bGVmdDogMjUlO1xyXG5cdHBvc2l0aW9uOiBmaXhlZDtcclxuXHR6LWluZGV4OiAxMDA7XHJcblx0YmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcblx0ZGlzcGxheTogbm9uZTtcclxuXHJcbn1cclxuLm1vZGFsLWNvbnRlbnR7XHJcblx0Ym9yZGVyOm5vbmU7XHJcblx0Ym94LXNoYWRvdzogbm9uZTtcclxuXHJcbn1cclxuLm1vZGFsLWNvbnRlbnQ+aW5wdXR7XHJcblx0Ym9yZGVyOjJweCBzb2xpZCAjQkRFQUVGIDtcclxuXHR3aWR0aDogNTAlO1xyXG5cdGhlaWdodDogNTBweDtcclxuXHRtYXJnaW46MTBweCAyNSU7XHJcblx0Ym9yZGVyLXJhZGl1czogNXB4O1xyXG5cclxuXHJcbn1cclxuLm1vZGFsLWNvbnRlbnQ+bGFiZWx7XHJcblx0Zm9udC1zaXplOiAxNXB4O1xyXG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHR3aWR0aDogMTAwJTtcclxuXHRtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG5cclxufVxyXG4ubW9kYWwtY29udGVudD5idXR0b257XHJcblx0d2lkdGg6IDUwJTtcclxuXHRtYXJnaW46MTVweCAyNSU7XHJcbn1cclxuLmxnTW9kYWw+aW1ne1xyXG5cdG1hcmdpbi10b3A6MDtcclxuXHRoZWlnaHQ6IDIycHg7XHJcblx0d2lkdGg6IDIycHg7XHJcblx0ZmxvYXQ6IHJpZ2h0O1xyXG5cdGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -78,7 +78,7 @@ module.exports = "li{\r\n\tlist-style: none;\r\n\r\n}\r\nh2{\r\n\twidth: 100%;\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n<!---------NAV BAR------------>\n\t<nav class=\"navbar navbar-default navbar-fixed-top\" id=\"navbarid\">\n\t  <div class=\"container\">\n\t    <div class=\"navbar-header\">\n\t      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n\t        <span class=\"sr-only\">Toggle navigation</span>\n\t        <span class=\"icon-bar\"></span>\n\t        <span class=\"icon-bar\"></span>\n\t        <span class=\"icon-bar\"></span>\n\t      </button>\n\t      <a class=\"navbar-brand\" href=\"#\">ClotMilk</a>\n\t    </div>\n\t    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n\t      <ul class=\"nav navbar-nav\">\n\t        <li><a href=\"#\">Product</a></li>\n\t        <li><a href=\"#\">Sport</a></li>\n\t        <li><a href=\"#\">Music</a></li>\n\t        <li class=\"dropdown\">\n\t          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">SHOP<span class=\"caret\"></span></a>\n\t          <ul class=\"dropdown-menu\">\n\t            <li><a href=\"#\">Hats</a></li>\n\t            <li><a href=\"#\">Shoes</a></li>\n\t            <li><a href=\"#\">Cloth</a></li>\n\t            <li role=\"separator\" class=\"divider\"></li>\n\t            <li><a href=\"#\">New Arrival</a></li>\n\t            <li role=\"separator\" class=\"divider\"></li>\n\t            <li><a href=\"#\">For Fun</a></li>\n\t          </ul>\n\t        </li>\n\t      </ul>\n\t      <form class=\"navbar-form navbar-left\">\n\t        <div class=\"form-group\">\n\t          <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n\t        </div>\n\t        <button id=\"kkk\" type=\"submit\" class=\"btn btn-default\">GO</button>\n\t        <img src=\"assets/img/search.png\" id=\"searchimg\">\n\t      </form>\n\t      <ul class=\"nav navbar-nav navbar-right\">\n\t      \t<li class=\"clock\">\n\t      \t\t<div class=\"clock center\">\n\t      \t\t\t<div class=\"unit\" id=\"seconds\"></div>\n\t      \t\t\t<div class=\"unit\" id=\"minutes\"></div>\n\t      \t\t\t<div class=\"unit\" id=\"hours\"></div>\n\t      \t\t</div>\n\t      \t</li>\n\t        <li id=\"loginBtn\">Login</li>\n\t        <li class=\"dropdown\">\n\t          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">About Us<span class=\"caret\"></span></a>\n\t          <ul class=\"dropdown-menu\">\n\t            <li><a href=\"#\">Location</a></li>\n\t            <li><a href=\"#\">Career</a></li>\n\t            <li><a href=\"#\">Policy</a></li>\n\t            <li role=\"separator\" class=\"divider\"></li>\n\t            <li><a href=\"#\">Membership</a></li>\n\t          </ul>\n\t        </li>\n\t      </ul>\n\t    </div><!-- /.navbar-collapse -->\n\t  </div><!-- /.container-fluid -->\n\t</nav>\n\t\n\n\n\t<!-- carousel ------------------------------------------------------------------------------------------------- -->\n\t<div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\">\n\t  <!-- Indicators -->\n\t  <ol class=\"carousel-indicators\">\n\t    <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n\t    <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n\t    <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>\n\t  </ol>\n\n\t  <!-- Wrapper for slides -->\n\t  <div class=\"carousel-inner\" role=\"listbox\">\n\t    <div class=\"item active\">\n\t      <img src=\"assets/img/blue.jpg\">\n\t      <div class=\"carousel-caption\">\n\t        <h3>Always do what you're afraid to do.</h3>\n\t      </div>\n\t    </div>\n\t    <div class=\"item\">\n\t      <img src=\"assets/img/star3.jpg\" alt=\"...\">\n\t      <div class=\"carousel-caption\">\n\t        <h3>I will prove myself strong when they think I am sick</h3>\n\t      </div>\n\t    </div>\n\t    <div class=\"item\">\n\t      <img src=\"assets/img/tpig.jpg\" alt=\"...\" id=\"pig\">\n\t      <div class=\"carousel-caption pigCap\">\n\t        <button class=\"pigbtn\" value=\"Learn More\">Learn More</button>\n\t      </div>\n\t    ...\n\t  </div>\n\n\t  <!-- carousel Controls -->\n\t  <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\n\t    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\n\t  </a>\n\t  <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\n\t    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\n\t  </a>\n\t</div>\n\t<div>\n\t\n\t<div class=\"jumbotron\">\n\t  <h1>Hello, Manager</h1>\n\t  <p>This a commercial website demo project --- RunBin Ju</p>\n\t  <p><a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a></p>\n\t</div>\n\t\n\t<!-- carousel ------------------------------------------------------------------------------------------------- -->\n\n\t<!-- carousel ------------------------------------------------------------------------------------------------- -->\n\t<h1>Product Section</h1>\n\t<!-- carousel ------------------------------------------------------------------------------------------------- -->\n\n\t<app-page1></app-page1>\n\n\t<!-- Modal ------------------------------------------------------------------------------------------------- -->\n\t<div class=\"lgModal animate\" id=\"login1\">\n\t\t<img src=\"assets/img/x.png\" id=\"closeimg\">\n\t\t<form action=\"#\" class=\"modal-content\">\n\t\t\t<h2>Login Modal</h2>\n\t\t\t<label for=\"uname\">UserName</label>\n\t\t\t<input type=\"text\" name=\"uname\" placeholder=\"Enter UserName\" required=\"required\"/>\n\t\t\t<label for=\"psw\">Password</label>\n\t\t\t<input type=\"password\" name=\"psw\" placeholder=\"Enter Password\" required=\"required\"/>\n\t\t\t<button type=\"submit\">Submit</button>\n\t\t\t<label class=\"checkbox\">\n\t\t\t\t<input type=\"checkbox\" name=\"\">Keep me login\n\t\t\t</label>\n\t\t</form>\n\t</div>\n\n\t<!-- end of Modal ------------------------------------------------------------------------------------------------- -->\n\t<div class=\"border\"></div>\n\t\n\t\n\n\t<!-- foot ------------------------------------------------------------------------------------------------- -->\n\n\t<div class=\"foot\">\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>Help</h4></li>\n\t\t\t<li><a href=\"#\">Fina a Store</a></li>\n\t\t\t<li><a href=\"#\">Store App</a></li>\n\t\t\t<li><a href=\"#\">Order Status</a></li>\n\t\t\t<li><a href=\"#\">Shopping Help</a></li>\n\t\t\t<li><a href=\"#\">Field Trip</a></li>\n\t\t\t<li><a href=\"#\">Refurbinished and Clearance</a></li>\n\t\t\t<li><a href=\"#\">Store Camp</a></li>\n\t\t</div>\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>About Us</h4></li>\n\t\t\t<li><a href=\"#\">Newsroom</a></li>\n\t\t\t<li><a href=\"#\">Leadership</a></li>\n\t\t\t<li><a href=\"#\">Investors</a></li>\n\t\t\t<li><a href=\"#\">Event</a></li>\n\t\t\t<li><a href=\"#\">Contact Us</a></li>\n\t\t\t<li><a href=\"#\">Job Opportunities</a></li>\n\t\t</div>\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>Company Value</h4></li>\n\t\t\t<li><a href=\"#\">Accessiblity</a></li>\n\t\t\t<li><a href=\"#\">Enviroment</a></li>\n\t\t\t<li><a href=\"#\">Privacy</a></li>\n\t\t\t<li><a href=\"#\">Suppiler Responsibility</a></li>\n\t\t</div>\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>Account</h4></li>\n\t\t\t<li><a href=\"#\">Manage your ID</a></li>\n\t\t\t<li><a href=\"#\">Store Account</a></li>\n\t\t</div>\n\t</div>\n\n\t<div class=\"foot2\">\n\t\t<span>Copyright©️ 2018 RunBin Ju. All rights Reserved.</span>\n\t\t<li><a href=\"#\"> Privacy Policy</a></li>\n\t\t<li><a href=\"#\"> Use of Cookies</a></li>\n\t\t<li><a href=\"#\"> Terms of Use</a></li>\n\t\t<li><a href=\"#\"> Legal</a></li>\n\t\t<li><a href=\"#\"> Site Map</a></li>\n\t</div>\n\t\n\t<!--Veritical Nav----------------------------------------------------------------------------------------------------->\n\t<div class=\"sideNav\">\n\t\t<dl class=\"list_dl\">\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Home</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Home</li>\n\t                <li class=\"list_li\">Product</li>\n\t                \n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Online</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Game</li>\n\t                <li class=\"list_li\">Bussiness</li>\n\t                <li class=\"list_li\">Bank</li>\n\t                <li class=\"list_li\">Service</li>\n\t                \n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>News</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Inter</li>\n\t                <li class=\"list_li\">Rockets</li>\n\t                <li class=\"list_li\">Canada</li>\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Map</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Toronto</li>\n\t                <li class=\"list_li\">Ottawa</li>\n\t                <li class=\"list_li\">Hamilton</li>\n\t                <l\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Call Us</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">613-4653232</li>\n\t                <li class=\"list_li\">905-5122546</li>\n\t                <li class=\"list_li\">905-5120016</li>\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Policy</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Law</li>\n\t                <li class=\"list_li\">Delaration</li>\n\t                <li class=\"list_li\">Policy</li>\n\t                \n\t            </ul>\n\t        </dd>\n\t    </dl>\n\t</div>\n\n\n\t\n\n\n<!--end of Container 1 ------------------------------------------------------------------------------------------------- -->\n</div> \n\n"
+module.exports = "<div class=\"container\">\n  <ul class=\"nav nav-tabs\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" href=\"#\">Home</a>\n      </li>\n      <li class=\"nav-item dropdown\">\n        <a class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">About Us</a>\n        <div class=\"dropdown-menu\">\n          <a class=\"dropdown-item\" href=\"#\">Location</a>\n          <a class=\"dropdown-item\" href=\"#\">Contact us</a>\n          <a class=\"dropdown-item\" href=\"#\">Career</a>\n          <div class=\"dropdown-divider\"></div>\n          <a class=\"dropdown-item\" >Membership</a>\n        </div>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"product\">Product</a>\n      </li>\n      <li class=\"nav-item\">\n          <input class=\"srchText\" type=\"text\" placeholder=\"Search\">\n          <button id=\"kkk\" type=\"submit\" class=\"btn btn-default\">GO</button>\n\t        <img src=\"assets/img/search.png\" id=\"searchimg\">\n      </li>\n\n      <li class=\"nav-item\">\n        <a class=\"nav-link active\" id=\"loginBtn\">Login</a>\n      </li>\n    </ul>\n\n  <!-- Modal ------------------------------------------------------------------------------------------------- -->\n\t<div class=\"lgModal animate\" id=\"login1\">\n      <img src=\"assets/img/x.png\" id=\"closeimg\">\n      <form action=\"#\" class=\"modal-content\">\n        <label for=\"uname\">UserName</label>\n        <input type=\"text\" name=\"uname\" placeholder=\"Enter UserName\" required=\"required\"/>\n        <label for=\"psw\">Password</label>\n        <input type=\"password\" name=\"psw\" placeholder=\"Enter Password\" required=\"required\"/>\n        <button type=\"submit\">Submit</button>\n        <label class=\"checkbox\">\n          <input type=\"checkbox\" name=\"\">Keep me login\n        </label>\n      </form>\n    </div>\n\n    <!-- end of Modal ------------------------------------------------------------------------------------------------- -->\n    <router-outlet></router-outlet>\n    <app-foot></app-foot>\n</div>\n\n"
 
 /***/ }),
 
@@ -102,28 +102,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'demo';
     }
     AppComponent.prototype.ngOnInit = function () {
-        $('#kkk').on('click', function () {
-            alert('123');
-        });
-        $(function () {
-            var $hour = $('#hours');
-            var $min = $('#minutes');
-            var $second = $('#seconds');
-            function update() {
-                var date = new Date();
-                var hour = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();
-                var min = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
-                var sec = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds();
-                $hour.text(hour + ':');
-                $min.text(min + ':');
-                $second.text(sec);
-            }
-            update();
-            window.setInterval(update, 1000);
-        });
         $(function () {
             $('#loginBtn').on('click', function () {
                 $('.lgModal').css('display', 'block');
@@ -136,32 +116,6 @@ var AppComponent = /** @class */ (function () {
                 $(document.body).css('background', 'rgba(0,0,0,0)');
             });
         });
-        $(function () {
-            $(".col-md-4>a").click(function () {
-                $("#ul").append("<li>" + 'cloth x 1' + "</li>");
-                $('.col-md-4>li').innerTEXT == 'Jacket';
-            });
-        });
-        $(function () {
-            $("#clear").click(function () {
-                $("#ul>li").remove();
-            });
-        });
-        $(function () {
-            $("#delete").click(function () {
-                $("#ul>li").last().remove();
-            });
-        });
-        $(".list_dt").on("click", function () {
-            $('.list_dd').stop();
-            $(this).siblings("dt").removeAttr("id");
-            if ($(this).attr("id") == "open") {
-                $(this).removeAttr("id").siblings("dd").slideUp();
-            }
-            else {
-                $(this).attr("id", "open").next().slideDown().siblings("dd").slideUp();
-            }
-        });
     };
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -173,7 +127,6 @@ var AppComponent = /** @class */ (function () {
     return AppComponent;
 }());
 
-;
 
 
 /***/ }),
@@ -190,10 +143,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _page1_page1_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page1/page1.component */ "./src/app/page1/page1.component.ts");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm5/ng-bootstrap.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
+/* harmony import */ var _product_product_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./product/product.component */ "./src/app/product/product.component.ts");
+/* harmony import */ var ngx_bootstrap_carousel__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ngx-bootstrap/carousel */ "./node_modules/ngx-bootstrap/carousel/fesm5/ngx-bootstrap-carousel.js");
+/* harmony import */ var ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ngx-bootstrap/tabs */ "./node_modules/ngx-bootstrap/tabs/fesm5/ngx-bootstrap-tabs.js");
+/* harmony import */ var ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ngx-bootstrap/modal */ "./node_modules/ngx-bootstrap/modal/fesm5/ngx-bootstrap-modal.js");
+/* harmony import */ var _foot_foot_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./foot/foot.component */ "./src/app/foot/foot.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -202,26 +160,45 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 
 
+/*Router Setup */
+
+
+/*Components*/
+
+
+
+/*bootstrap import*/
 
 
 
 
+/*Router Setup */
+var appRoutes = [
+    { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"] },
+    { path: 'product', component: _product_product_component__WEBPACK_IMPORTED_MODULE_6__["ProductComponent"] },
+    { path: '', redirectTo: '/home', pathMatch: 'full' }
+];
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _page1_page1_component__WEBPACK_IMPORTED_MODULE_4__["Page1Component"],
+                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
+                _product_product_component__WEBPACK_IMPORTED_MODULE_6__["ProductComponent"],
+                _foot_foot_component__WEBPACK_IMPORTED_MODULE_10__["FootComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"].forRoot()
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+                ngx_bootstrap_carousel__WEBPACK_IMPORTED_MODULE_7__["CarouselModule"].forRoot(),
+                ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_8__["TabsModule"].forRoot(),
+                ngx_bootstrap_modal__WEBPACK_IMPORTED_MODULE_9__["ModalModule"].forRoot(),
+                _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(appRoutes)
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -231,38 +208,178 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/page1/page1.component.css":
-/*!*******************************************!*\
-  !*** ./src/app/page1/page1.component.css ***!
-  \*******************************************/
+/***/ "./src/app/foot/foot.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/foot/foot.component.css ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".tab-pane .row .col-md-4{\r\n\toverflow: hidden;\r\n\tmargin-top: 20px;\r\n\tmargin-left: 120px;\r\n\theight: 200px;\r\n\twidth: 200px;\r\n\r\n} \r\n\r\n.tab-pane .row .col-md-4>img{\r\n\theight: 100%;\r\n\twidth: 100%;\r\n} \r\n\r\n.tab-pane .row .col-md-4>a{\r\n\t\r\n\tposition: absolute;\r\n\tbottom: 0;\r\n\tleft: 43%;\r\n\tcolor: red;\r\n\tfont-weight: bold;\r\n} \r\n\r\n.tab-pane .row .col-md-4>a>img{\r\n\twidth: 15px;\r\n\theight: 15px;\r\n\tcursor: pointer;\r\n} \r\n\r\n.nav-tabs>li{\r\n\tfont-weight:bold;\r\n\t\r\n} \r\n\r\n.nav-tabs>li>a{\r\n\tcolor:black;\r\n} \r\n\r\n#sort{\r\n\tline-height: 40px;\r\n} \r\n\r\n.col-md-4 span{\r\n\ttext-align: center;\r\n\tposition: absolute;\r\n\tdisplay: block;\r\n\tbackground: rgba(33,33,33,0.4);\r\n\tleft: -100%;\r\n\ttop: 0;\r\n\ttransition: all 0.5 ease;\r\n\tcolor: white;\r\n\tfont-size: 15px;\r\n\tfont-weight: bold;\r\n\twidth: 100%;\r\n\theight: 90%;\r\n} \r\n\r\n.col-md-4:hover span{\r\n\tleft: 0;\r\n\ttop: 0;\r\n} \r\n\r\n.cart{\r\n\tposition: fixed;\r\n\toverflow: hidden;\r\n\ttop:10%;\r\n\tright: 2%;\r\n\twidth: 15%;\r\n\theight: auto;\r\n\tborder:2px solid black;\r\n\tborder-radius: 5px;\r\n} \r\n\r\n.cart>button{\r\n\toverflow: hidden;\r\n\twidth: 28%;\r\n\tmargin-left: 10px;\r\n} \r\n\r\n.cart>img{\r\n\theight: 20px;\r\n\twidth: 20px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZTEvcGFnZTEuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtDQUNDLGlCQUFpQjtDQUNqQixpQkFBaUI7Q0FDakIsbUJBQW1CO0NBQ25CLGNBQWM7Q0FDZCxhQUFhOztDQUViOztBQUVEO0NBQ0MsYUFBYTtDQUNiLFlBQVk7Q0FDWjs7QUFFRDs7Q0FFQyxtQkFBbUI7Q0FDbkIsVUFBVTtDQUNWLFVBQVU7Q0FDVixXQUFXO0NBQ1gsa0JBQWtCO0NBQ2xCOztBQUNEO0NBQ0MsWUFBWTtDQUNaLGFBQWE7Q0FDYixnQkFBZ0I7Q0FDaEI7O0FBQ0Q7Q0FDQyxpQkFBaUI7O0NBRWpCOztBQUNEO0NBQ0MsWUFBWTtDQUNaOztBQUVEO0NBQ0Msa0JBQWtCO0NBQ2xCOztBQUVEO0NBQ0MsbUJBQW1CO0NBQ25CLG1CQUFtQjtDQUNuQixlQUFlO0NBQ2YsK0JBQStCO0NBQy9CLFlBQVk7Q0FDWixPQUFPO0NBQ1AseUJBQXlCO0NBQ3pCLGFBQWE7Q0FDYixnQkFBZ0I7Q0FDaEIsa0JBQWtCO0NBQ2xCLFlBQVk7Q0FDWixZQUFZO0NBQ1o7O0FBRUQ7Q0FDQyxRQUFRO0NBQ1IsT0FBTztDQUNQOztBQUVEO0NBQ0MsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixRQUFRO0NBQ1IsVUFBVTtDQUNWLFdBQVc7Q0FDWCxhQUFhO0NBQ2IsdUJBQXVCO0NBQ3ZCLG1CQUFtQjtDQUNuQjs7QUFFRDtDQUNDLGlCQUFpQjtDQUNqQixXQUFXO0NBQ1gsa0JBQWtCO0NBQ2xCOztBQUNEO0NBQ0MsYUFBYTtDQUNiLFlBQVk7Q0FDWiIsImZpbGUiOiJzcmMvYXBwL3BhZ2UxL3BhZ2UxLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGFiLXBhbmUgLnJvdyAuY29sLW1kLTR7XHJcblx0b3ZlcmZsb3c6IGhpZGRlbjtcclxuXHRtYXJnaW4tdG9wOiAyMHB4O1xyXG5cdG1hcmdpbi1sZWZ0OiAxMjBweDtcclxuXHRoZWlnaHQ6IDIwMHB4O1xyXG5cdHdpZHRoOiAyMDBweDtcclxuXHJcbn0gXHJcblxyXG4udGFiLXBhbmUgLnJvdyAuY29sLW1kLTQ+aW1ne1xyXG5cdGhlaWdodDogMTAwJTtcclxuXHR3aWR0aDogMTAwJTtcclxufVxyXG5cclxuLnRhYi1wYW5lIC5yb3cgLmNvbC1tZC00PmF7XHJcblx0XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdGJvdHRvbTogMDtcclxuXHRsZWZ0OiA0MyU7XHJcblx0Y29sb3I6IHJlZDtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4udGFiLXBhbmUgLnJvdyAuY29sLW1kLTQ+YT5pbWd7XHJcblx0d2lkdGg6IDE1cHg7XHJcblx0aGVpZ2h0OiAxNXB4O1xyXG5cdGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG4ubmF2LXRhYnM+bGl7XHJcblx0Zm9udC13ZWlnaHQ6Ym9sZDtcclxuXHRcclxufVxyXG4ubmF2LXRhYnM+bGk+YXtcclxuXHRjb2xvcjpibGFjaztcclxufVxyXG5cclxuI3NvcnR7XHJcblx0bGluZS1oZWlnaHQ6IDQwcHg7XHJcbn1cclxuXHJcbi5jb2wtbWQtNCBzcGFue1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0ZGlzcGxheTogYmxvY2s7XHJcblx0YmFja2dyb3VuZDogcmdiYSgzMywzMywzMywwLjQpO1xyXG5cdGxlZnQ6IC0xMDAlO1xyXG5cdHRvcDogMDtcclxuXHR0cmFuc2l0aW9uOiBhbGwgMC41IGVhc2U7XHJcblx0Y29sb3I6IHdoaXRlO1xyXG5cdGZvbnQtc2l6ZTogMTVweDtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxuXHR3aWR0aDogMTAwJTtcclxuXHRoZWlnaHQ6IDkwJTtcclxufVxyXG5cclxuLmNvbC1tZC00OmhvdmVyIHNwYW57XHJcblx0bGVmdDogMDtcclxuXHR0b3A6IDA7XHJcbn1cclxuXHJcbi5jYXJ0e1xyXG5cdHBvc2l0aW9uOiBmaXhlZDtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHRvcDoxMCU7XHJcblx0cmlnaHQ6IDIlO1xyXG5cdHdpZHRoOiAxNSU7XHJcblx0aGVpZ2h0OiBhdXRvO1xyXG5cdGJvcmRlcjoycHggc29saWQgYmxhY2s7XHJcblx0Ym9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcblxyXG4uY2FydD5idXR0b257XHJcblx0b3ZlcmZsb3c6IGhpZGRlbjtcclxuXHR3aWR0aDogMjglO1xyXG5cdG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcbi5jYXJ0PmltZ3tcclxuXHRoZWlnaHQ6IDIwcHg7XHJcblx0d2lkdGg6IDIwcHg7XHJcbn0iXX0= */"
+module.exports = "li{\r\n  list-style: none;\r\n}\r\n.foot2{\r\n  clear: both;\r\n  margin-top: 10px;\r\n\theight: 25px;\r\n\twidth: 100%;\r\n\r\n}\r\n.foot2>li{\r\n\tfloat: left;\r\n\tmargin:0 20px;\r\n}\r\n.foot2>span{\r\n\tfloat: right;\r\n}\r\n.foot{\r\n\twidth: 98%;\r\n  height: 300px;\r\n  margin-top: 800px;\r\n  padding-top: 20px;\r\n  border-top: 2px solid black;\r\n  clear: both;\r\n  border-bottom: 2px solid black;\r\n\r\n}\r\n.footContent{\r\n\twidth: 25%;\r\n\theight: 100%;\r\n\t/*border:1px solid red;*/\r\n\tfloat:left;\r\n}\r\n.footContent>li{\r\n\tmargin-top: 10px;\r\n\ttext-align: center;\r\n\tcolor: #333;\r\n}\r\n.footContent>li>a{\r\n\tcolor: #555;\r\n\r\n}\r\n.foot2>li>a{\r\n\tcolor: #555;\r\n\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdC9mb290LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBaUI7Q0FDbEI7QUFDRDtFQUNFLFlBQVk7RUFDWixpQkFBaUI7Q0FDbEIsYUFBYTtDQUNiLFlBQVk7O0NBRVo7QUFDRDtDQUNDLFlBQVk7Q0FDWixjQUFjO0NBQ2Q7QUFDRDtDQUNDLGFBQWE7Q0FDYjtBQUNEO0NBQ0MsV0FBVztFQUNWLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLDRCQUE0QjtFQUM1QixZQUFZO0VBQ1osK0JBQStCOztDQUVoQztBQUNEO0NBQ0MsV0FBVztDQUNYLGFBQWE7Q0FDYix5QkFBeUI7Q0FDekIsV0FBVztDQUNYO0FBQ0Q7Q0FDQyxpQkFBaUI7Q0FDakIsbUJBQW1CO0NBQ25CLFlBQVk7Q0FDWjtBQUNEO0NBQ0MsWUFBWTs7Q0FFWjtBQUNEO0NBQ0MsWUFBWTs7Q0FFWiIsImZpbGUiOiJzcmMvYXBwL2Zvb3QvZm9vdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibGl7XHJcbiAgbGlzdC1zdHlsZTogbm9uZTtcclxufVxyXG4uZm9vdDJ7XHJcbiAgY2xlYXI6IGJvdGg7XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuXHRoZWlnaHQ6IDI1cHg7XHJcblx0d2lkdGg6IDEwMCU7XHJcblxyXG59XHJcbi5mb290Mj5saXtcclxuXHRmbG9hdDogbGVmdDtcclxuXHRtYXJnaW46MCAyMHB4O1xyXG59XHJcbi5mb290Mj5zcGFue1xyXG5cdGZsb2F0OiByaWdodDtcclxufVxyXG4uZm9vdHtcclxuXHR3aWR0aDogOTglO1xyXG4gIGhlaWdodDogMzAwcHg7XHJcbiAgbWFyZ2luLXRvcDogODAwcHg7XHJcbiAgcGFkZGluZy10b3A6IDIwcHg7XHJcbiAgYm9yZGVyLXRvcDogMnB4IHNvbGlkIGJsYWNrO1xyXG4gIGNsZWFyOiBib3RoO1xyXG4gIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCBibGFjaztcclxuXHJcbn1cclxuLmZvb3RDb250ZW50e1xyXG5cdHdpZHRoOiAyNSU7XHJcblx0aGVpZ2h0OiAxMDAlO1xyXG5cdC8qYm9yZGVyOjFweCBzb2xpZCByZWQ7Ki9cclxuXHRmbG9hdDpsZWZ0O1xyXG59XHJcbi5mb290Q29udGVudD5saXtcclxuXHRtYXJnaW4tdG9wOiAxMHB4O1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRjb2xvcjogIzMzMztcclxufVxyXG4uZm9vdENvbnRlbnQ+bGk+YXtcclxuXHRjb2xvcjogIzU1NTtcclxuXHJcbn1cclxuLmZvb3QyPmxpPmF7XHJcblx0Y29sb3I6ICM1NTU7XHJcblxyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
-/***/ "./src/app/page1/page1.component.html":
-/*!********************************************!*\
-  !*** ./src/app/page1/page1.component.html ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div>\n  <!-- Nav tabs -->\n  <ul class=\"nav nav-tabs\" role=\"tablist\">\n  \t<li id=\"sort\">Sort by :</li>\n    <li role=\"presentation\" class=\"active\"><a href=\"#home\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Latest Arrivals</a></li>\n    <li role=\"presentation\"><a href=\"#profile\" aria-controls=\"profile\" role=\"tab\" data-toggle=\"tab\">Highest Price</a></li>\n    <li role=\"presentation\"><a href=\"#messages\" aria-controls=\"messages\" role=\"tab\" data-toggle=\"tab\">Lowest Price</a></li>\n    <li role=\"presentation\"><a href=\"#settings\" aria-controls=\"settings\" role=\"tab\" data-toggle=\"tab\">Most Popular</a></li>\n    <li role=\"presentation\"><a href=\"#settings\" aria-controls=\"settings\" role=\"tab\" data-toggle=\"tab\">Coming Soon</a></li>\n  </ul>\n\n  <!-- Tab panes -->\n  <div class=\"tab-content\">\n    <div role=\"tabpanel\" class=\"tab-pane fade in active\" id=\"home\">\n    \t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth1.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth1.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth1.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth1.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth1.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth1.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n    </div>\n    <div role=\"tabpanel\" class=\"tab-pane fade\" id=\"profile\">\n    \t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth2.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth2.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth2.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth2.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth2.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth2.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n    </div>\n    <div role=\"tabpanel\" class=\"tab-pane fade\" id=\"messages\">\n    \t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth3.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth3.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth3.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth3.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\"(click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth3.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\"(click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth3.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\"(click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n    </div>\n    <div role=\"tabpanel\" class=\"tab-pane fade\" id=\"settings\">\n    \t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth4.jpg\">\n\t\t  \t<span>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t\t<p><b>Description</b></p>\n\t\t  \t</span>\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth4.jpg\">\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth4.jpg\">\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth4.jpg\">\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth4.jpg\">\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t  <div class=\"col-md-4\">\n\t\t  \t<img src=\"assets/img/cloth4.jpg\">\n\t\t  \t<a href=\"#\"><img src=\"assets/img/cart.png\" (click)=\"add()\">${{price}}</a>\n\t\t  </div>\n\t\t</div>\n    </div>\n  </div>\n</div>\n<!-- End of Nav Tabs ------------------------------------------------------------------------------------------------- -->\n<div class=\"cart\">\n\t<span><img src=\"assets/img/cart.png\">Your Selected Items:</span>\n\t<ul id=\"ul\">\n\t</ul>\n\t      Number of Items : {{num}}\n\t<br>\n\t      Total Amount($) : {{total}}\n\t<br>\n\t<button>Checkout</button>\n\t<button id=\"delete\" (click)= \"delete()\" >Delete</button>\n\t<button id=\"clear\" (click) =\"clear()\">Clear All</button>\n\t\n\n</div>\n\n"
-
-/***/ }),
-
-/***/ "./src/app/page1/page1.component.ts":
+/***/ "./src/app/foot/foot.component.html":
 /*!******************************************!*\
-  !*** ./src/app/page1/page1.component.ts ***!
+  !*** ./src/app/foot/foot.component.html ***!
   \******************************************/
-/*! exports provided: Page1Component */
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n<div class=\"foot\">\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>Help</h4></li>\n\t\t\t<li><a href=\"#\">Fina a Store</a></li>\n\t\t\t<li><a href=\"#\">Store App</a></li>\n\t\t\t<li><a href=\"#\">Order Status</a></li>\n\t\t\t<li><a href=\"#\">Shopping Help</a></li>\n\t\t\t<li><a href=\"#\">Field Trip</a></li>\n\t\t\t<li><a href=\"#\">Refurbinished and Clearance</a></li>\n\t\t\t<li><a href=\"#\">Store Camp</a></li>\n\t\t</div>\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>About Us</h4></li>\n\t\t\t<li><a href=\"#\">Newsroom</a></li>\n\t\t\t<li><a href=\"#\">Leadership</a></li>\n\t\t\t<li><a href=\"#\">Investors</a></li>\n\t\t\t<li><a href=\"#\">Event</a></li>\n\t\t\t<li><a href=\"#\">Contact Us</a></li>\n\t\t\t<li><a href=\"#\">Job Opportunities</a></li>\n\t\t</div>\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>Company Value</h4></li>\n\t\t\t<li><a href=\"#\">Accessiblity</a></li>\n\t\t\t<li><a href=\"#\">Enviroment</a></li>\n\t\t\t<li><a href=\"#\">Privacy</a></li>\n\t\t\t<li><a href=\"#\">Suppiler Responsibility</a></li>\n\t\t</div>\n\t\t<div class=\"footContent\">\n\t\t\t<li><h4>Account</h4></li>\n\t\t\t<li><a href=\"#\">Manage your ID</a></li>\n\t\t\t<li><a href=\"#\">Store Account</a></li>\n\t\t</div>\n\t</div>\n\n\t<div class=\"foot2\">\n\t\t<span>Copyright©️ 2018 RunBin Ju. All rights Reserved.</span>\n\t\t<li><a href=\"#\"> Privacy Policy</a></li>\n\t\t<li><a href=\"#\"> Use of Cookies</a></li>\n\t\t<li><a href=\"#\"> Terms of Use</a></li>\n\t\t<li><a href=\"#\"> Legal</a></li>\n\t\t<li><a href=\"#\"> Site Map</a></li>\n\t</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/foot/foot.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/foot/foot.component.ts ***!
+  \****************************************/
+/*! exports provided: FootComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Page1Component", function() { return Page1Component; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FootComponent", function() { return FootComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var FootComponent = /** @class */ (function () {
+    function FootComponent() {
+    }
+    FootComponent.prototype.ngOnInit = function () {
+    };
+    FootComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-foot',
+            template: __webpack_require__(/*! ./foot.component.html */ "./src/app/foot/foot.component.html"),
+            styles: [__webpack_require__(/*! ./foot.component.css */ "./src/app/foot/foot.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], FootComponent);
+    return FootComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.css":
+/*!*****************************************!*\
+  !*** ./src/app/home/home.component.css ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "h4{\r\n  margin: 0 auto;\r\n  text-align: center;\r\n  margin-bottom: 10px;\r\n  font-weight: bold;\r\n  color:rgba(0, 183, 255, 0.945);\r\n}\r\n.myWeb{\r\n  background-image: linear-gradient(45deg,#ADEAEF,#C3EEF2);\r\n  border:1px solid #ADEAEF;\r\n  text-align: center;\r\n  font-style: italic;\r\n  font-weight: bold;\r\n  color:rgba(19, 20, 1, 0.568);\r\n\r\n  font-size:15px;\r\n}\r\n.card{\r\n  padding: 0;\r\n  float: left;\r\n  margin-top: 10px;\r\n  margin-left: 30px;\r\n  height: 20%;\r\n}\r\n.card-img-top{\r\n  width: 100%;\r\n}\r\n#carousel-example-generic{\r\n\r\n\t/*border:1px solid black;*/\r\n\theight: 400px;\r\n}\r\n.carousel-inner{\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n.carousel-inner img{\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n#pig{\r\n\twidth: 80%;\r\n\r\n}\r\n.carousel-caption{\r\n\t/*border:1px solid black;*/\r\n\tmargin-bottom: 32%;\r\n}\r\n.pigbtn{\r\n\tfloat: right;\r\n\theight: 50px;\r\n\twidth:150px;\r\n\tbackground-color: #22C7C2;\r\n\tborder-radius: 5px;\r\n}\r\n.pigCap{\r\n\tmargin-bottom:15%;\r\n}\r\n.sideNav{\r\n\tposition: fixed;\r\n\ttop: 52px;\r\n\tleft: 0;\r\n\r\n}\r\n.list_dt{\r\n\r\n    background: white;\r\n    color: black;\r\n    width: 120px;\r\n    padding: 0 40px 0 20px;\r\n    height: 34px;\r\n    line-height: 34px;\r\n    cursor: pointer;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    white-space: nowrap;\r\n    position: relative;\r\n    border-bottom: 1px solid #464646;\r\n}\r\n.list_dt:hover{\r\n    background: #ADEAEF;\r\n}\r\n.list_dt:hover ._after{\r\n    display: block;\r\n    width: 3px;\r\n    height: 100%;\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    background: #ADEAEF;\r\n}\r\n#open{\r\n    background: white;\r\n}\r\n#open ._after{\r\n    display: block;\r\n    width: 3px;\r\n    height: 100%;\r\n    position: absolute;\r\n    left: 0;\r\n    top: 0;\r\n    background: #ADEAEF;\r\n}\r\n.list_dt_icon{\r\n    position: absolute;\r\n    right: 10px;\r\n    top: 11px;\r\n    display: block;\r\n    width: 12px;\r\n    height: 12px;\r\n\r\n    background-size: cover;\r\n}\r\n#open .list_dt_icon{\r\n\r\n    background-size: cover;\r\n}\r\n.list_dd{\r\n    display: none;\r\n}\r\n.list_li{\r\n    background: white;\r\n    list-style-type: none;\r\n    color: black;\r\n    width: 120px;\r\n    padding: 0 30px;\r\n    height: 34px;\r\n    line-height: 34px;\r\n    cursor: pointer;\r\n    border-bottom: 1px solid #6b6b6b;\r\n}\r\n.list_li:hover{\r\n    background: #999;\r\n}\r\n.formStyle{\r\n  float: right;\r\n  width:40%;\r\n  margin-top: 10px;\r\n  padding-top: 10px;\r\n  border:1px solid black;\r\n  border-radius: 10px;\r\n  background-color: rgb(217, 241, 245);\r\n  margin-bottom: 10px;\r\n}\r\n.jumbotron{\r\n  margin-top: 10px;\r\n  width: 100%;\r\n  height: 370px;\r\n  clear: both;\r\n  overflow: hidden;\r\n}\r\n.someContent>img{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsbUJBQW1CO0VBQ25CLG9CQUFvQjtFQUNwQixrQkFBa0I7RUFDbEIsK0JBQStCO0NBQ2hDO0FBQ0Q7RUFDRSx5REFBeUQ7RUFDekQseUJBQXlCO0VBQ3pCLG1CQUFtQjtFQUNuQixtQkFBbUI7RUFDbkIsa0JBQWtCO0VBQ2xCLDZCQUE2Qjs7RUFFN0IsZUFBZTtDQUNoQjtBQUNEO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLFlBQVk7Q0FDYjtBQUNEO0VBQ0UsWUFBWTtDQUNiO0FBQ0Q7O0NBRUMsMkJBQTJCO0NBQzNCLGNBQWM7Q0FDZDtBQUNEO0NBQ0MsWUFBWTtDQUNaLGFBQWE7Q0FDYjtBQUNEO0NBQ0MsWUFBWTtDQUNaLGFBQWE7Q0FDYjtBQUNEO0NBQ0MsV0FBVzs7Q0FFWDtBQUNEO0NBQ0MsMkJBQTJCO0NBQzNCLG1CQUFtQjtDQUNuQjtBQUVEO0NBQ0MsYUFBYTtDQUNiLGFBQWE7Q0FDYixZQUFZO0NBQ1osMEJBQTBCO0NBQzFCLG1CQUFtQjtDQUNuQjtBQUNEO0NBQ0Msa0JBQWtCO0NBQ2xCO0FBR0Q7Q0FDQyxnQkFBZ0I7Q0FDaEIsVUFBVTtDQUNWLFFBQVE7O0NBRVI7QUFFRDs7SUFFSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsYUFBYTtJQUNiLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBQ2pCLHdCQUF3QjtJQUN4QixvQkFBb0I7SUFDcEIsbUJBQW1CO0lBQ25CLGlDQUFpQztDQUNwQztBQUNEO0lBQ0ksb0JBQW9CO0NBQ3ZCO0FBQ0Q7SUFDSSxlQUFlO0lBQ2YsV0FBVztJQUNYLGFBQWE7SUFDYixtQkFBbUI7SUFDbkIsUUFBUTtJQUNSLE9BQU87SUFDUCxvQkFBb0I7Q0FDdkI7QUFDRDtJQUNJLGtCQUFrQjtDQUNyQjtBQUNEO0lBQ0ksZUFBZTtJQUNmLFdBQVc7SUFDWCxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLFFBQVE7SUFDUixPQUFPO0lBQ1Asb0JBQW9CO0NBQ3ZCO0FBQ0Q7SUFDSSxtQkFBbUI7SUFDbkIsWUFBWTtJQUNaLFVBQVU7SUFDVixlQUFlO0lBQ2YsWUFBWTtJQUNaLGFBQWE7O0lBRWIsdUJBQXVCO0NBQzFCO0FBQ0Q7O0lBRUksdUJBQXVCO0NBQzFCO0FBQ0Q7SUFDSSxjQUFjO0NBQ2pCO0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsc0JBQXNCO0lBQ3RCLGFBQWE7SUFDYixhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLGlDQUFpQztDQUNwQztBQUNEO0lBQ0ksaUJBQWlCO0NBQ3BCO0FBR0Q7RUFDRSxhQUFhO0VBQ2IsVUFBVTtFQUNWLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsdUJBQXVCO0VBQ3ZCLG9CQUFvQjtFQUNwQixxQ0FBcUM7RUFDckMsb0JBQW9CO0NBQ3JCO0FBRUQ7RUFDRSxpQkFBaUI7RUFDakIsWUFBWTtFQUNaLGNBQWM7RUFDZCxZQUFZO0VBQ1osaUJBQWlCO0NBQ2xCO0FBQ0Q7RUFDRSxXQUFXO0VBQ1gsYUFBYTtDQUNkIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoNHtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxuICBjb2xvcjpyZ2JhKDAsIDE4MywgMjU1LCAwLjk0NSk7XHJcbn1cclxuLm15V2Vie1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCg0NWRlZywjQURFQUVGLCNDM0VFRjIpO1xyXG4gIGJvcmRlcjoxcHggc29saWQgI0FERUFFRjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGNvbG9yOnJnYmEoMTksIDIwLCAxLCAwLjU2OCk7XHJcblxyXG4gIGZvbnQtc2l6ZToxNXB4O1xyXG59XHJcbi5jYXJke1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgZmxvYXQ6IGxlZnQ7XHJcbiAgbWFyZ2luLXRvcDogMTBweDtcclxuICBtYXJnaW4tbGVmdDogMzBweDtcclxuICBoZWlnaHQ6IDIwJTtcclxufVxyXG4uY2FyZC1pbWctdG9we1xyXG4gIHdpZHRoOiAxMDAlO1xyXG59XHJcbiNjYXJvdXNlbC1leGFtcGxlLWdlbmVyaWN7XHJcblxyXG5cdC8qYm9yZGVyOjFweCBzb2xpZCBibGFjazsqL1xyXG5cdGhlaWdodDogNDAwcHg7XHJcbn1cclxuLmNhcm91c2VsLWlubmVye1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGhlaWdodDogMTAwJTtcclxufVxyXG4uY2Fyb3VzZWwtaW5uZXIgaW1ne1xyXG5cdHdpZHRoOiAxMDAlO1xyXG5cdGhlaWdodDogMTAwJTtcclxufVxyXG4jcGlne1xyXG5cdHdpZHRoOiA4MCU7XHJcblxyXG59XHJcbi5jYXJvdXNlbC1jYXB0aW9ue1xyXG5cdC8qYm9yZGVyOjFweCBzb2xpZCBibGFjazsqL1xyXG5cdG1hcmdpbi1ib3R0b206IDMyJTtcclxufVxyXG5cclxuLnBpZ2J0bntcclxuXHRmbG9hdDogcmlnaHQ7XHJcblx0aGVpZ2h0OiA1MHB4O1xyXG5cdHdpZHRoOjE1MHB4O1xyXG5cdGJhY2tncm91bmQtY29sb3I6ICMyMkM3QzI7XHJcblx0Ym9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcbi5waWdDYXB7XHJcblx0bWFyZ2luLWJvdHRvbToxNSU7XHJcbn1cclxuXHJcblxyXG4uc2lkZU5hdntcclxuXHRwb3NpdGlvbjogZml4ZWQ7XHJcblx0dG9wOiA1MnB4O1xyXG5cdGxlZnQ6IDA7XHJcblxyXG59XHJcblxyXG4ubGlzdF9kdHtcclxuXHJcbiAgICBiYWNrZ3JvdW5kOiB3aGl0ZTtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIHdpZHRoOiAxMjBweDtcclxuICAgIHBhZGRpbmc6IDAgNDBweCAwIDIwcHg7XHJcbiAgICBoZWlnaHQ6IDM0cHg7XHJcbiAgICBsaW5lLWhlaWdodDogMzRweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcclxuICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgIzQ2NDY0NjtcclxufVxyXG4ubGlzdF9kdDpob3ZlcntcclxuICAgIGJhY2tncm91bmQ6ICNBREVBRUY7XHJcbn1cclxuLmxpc3RfZHQ6aG92ZXIgLl9hZnRlcntcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDNweDtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjQURFQUVGO1xyXG59XHJcbiNvcGVue1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbn1cclxuI29wZW4gLl9hZnRlcntcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDNweDtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBiYWNrZ3JvdW5kOiAjQURFQUVGO1xyXG59XHJcbi5saXN0X2R0X2ljb257XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICByaWdodDogMTBweDtcclxuICAgIHRvcDogMTFweDtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDEycHg7XHJcbiAgICBoZWlnaHQ6IDEycHg7XHJcblxyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxufVxyXG4jb3BlbiAubGlzdF9kdF9pY29ue1xyXG5cclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbn1cclxuLmxpc3RfZGR7XHJcbiAgICBkaXNwbGF5OiBub25lO1xyXG59XHJcbi5saXN0X2xpe1xyXG4gICAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB3aWR0aDogMTIwcHg7XHJcbiAgICBwYWRkaW5nOiAwIDMwcHg7XHJcbiAgICBoZWlnaHQ6IDM0cHg7XHJcbiAgICBsaW5lLWhlaWdodDogMzRweDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjNmI2YjZiO1xyXG59XHJcbi5saXN0X2xpOmhvdmVye1xyXG4gICAgYmFja2dyb3VuZDogIzk5OTtcclxufVxyXG5cclxuXHJcbi5mb3JtU3R5bGV7XHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIHdpZHRoOjQwJTtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIHBhZGRpbmctdG9wOiAxMHB4O1xyXG4gIGJvcmRlcjoxcHggc29saWQgYmxhY2s7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjE3LCAyNDEsIDI0NSk7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTBweDtcclxufVxyXG5cclxuLmp1bWJvdHJvbntcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMzcwcHg7XHJcbiAgY2xlYXI6IGJvdGg7XHJcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcclxufVxyXG4uc29tZUNvbnRlbnQ+aW1ne1xyXG4gIHdpZHRoOjEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbiJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.html":
+/*!******************************************!*\
+  !*** ./src/app/home/home.component.html ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"myWeb\">\n  ClotMilk's Website\n</div>\n<!-- carousel ------------------------------------------------------------------------------------------------- -->\n<div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\">\n  <!-- Indicators -->\n  <ol class=\"carousel-indicators\">\n    <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n    <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n    <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li>\n  </ol>\n\n  <!-- Wrapper for slides -->\n  <div class=\"carousel-inner\" role=\"listbox\">\n    <div class=\"item active\">\n      <img src=\"assets/img/blue.jpg\">\n      <div class=\"carousel-caption\">\n        <h3>Always do what you're afraid to do.</h3>\n      </div>\n    </div>\n    <div class=\"item\">\n      <img src=\"assets/img/star3.png\" alt=\"...\">\n      <div class=\"carousel-caption\">\n        <h3>I will prove myself strong when they think I am sick</h3>\n      </div>\n    </div>\n    <div class=\"item\">\n      <img src=\"assets/img/tpig.jpg\" alt=\"...\" id=\"pig\">\n      <div class=\"carousel-caption pigCap\">\n        <button class=\"pigbtn\" value=\"Learn More\">Learn More</button>\n      </div>\n    ...\n  </div>\n\n  <!-- carousel Controls -->\n  <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\n    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\n  </a>\n  <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\n    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\n  </a>\n</div>\n\n<!--Veritical Nav----------------------------------------------------------------------------------------------------->\n<div class=\"sideNav\">\n\t\t<dl class=\"list_dl\">\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Home</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Home</li>\n\t                <li class=\"list_li\">Product</li>\n\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Online</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Game</li>\n\t                <li class=\"list_li\">Bussiness</li>\n\t                <li class=\"list_li\">Bank</li>\n\t                <li class=\"list_li\">Service</li>\n\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>News</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Inter</li>\n\t                <li class=\"list_li\">Rockets</li>\n\t                <li class=\"list_li\">Canada</li>\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Map</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Toronto</li>\n\t                <li class=\"list_li\">Ottawa</li>\n\t                <li class=\"list_li\">Hamilton</li>\n\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Call Us</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">613-4653232</li>\n\t                <li class=\"list_li\">905-5122546</li>\n\t                <li class=\"list_li\">905-5120016</li>\n\t            </ul>\n\t        </dd>\n\t        <dt class=\"list_dt\">\n\t            <span class=\"_after\"></span>\n\t            <p>Policy</p>\n\t            <i class=\"list_dt_icon\"></i>\n\t        </dt>\n\t        <dd class=\"list_dd\">\n\t            <ul>\n\t                <li class=\"list_li\">Law</li>\n\t                <li class=\"list_li\">Delaration</li>\n\t                <li class=\"list_li\">Policy</li>\n\n\t            </ul>\n\t        </dd>\n\t    </dl>\n\t</div>\n  <div>\n  <div class=\"jumbotron\">\n    <h1 class=\"display-4\">Hello, world!</h1>\n    <p class=\"lead\">This is a simple Website homepage, you can CLICK \"Product\" on Nav Bar for more about SHOP functions .</p>\n    <hr class=\"my-4\">\n    <p></p>\n    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>\n  </div>\n\n  <div>\n    <div class=\"card col-md-2\" style=\"width: 18rem;\">\n      <img class=\"card-img-top\" src=\"assets/img/xigua.jpg\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n      </div>\n      </div>\n    <div class=\"card col-md-2\" style=\"width: 18rem;\">\n      <img class=\"card-img-top\" src=\"assets/img/gui.jpg\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n      </div>\n    </div>\n    <div class=\"card col-md-2\" style=\"width: 18rem;\">\n      <img class=\"card-img-top\" src=\"assets/img/fruit-drink.jpg\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n      </div>\n    </div>\n  <form class=\"formStyle col-md-5\">\n      <h4>Fast Register</h4>\n      <div class=\"form-row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"inputEmail4\">Email</label>\n          <input type=\"email\" class=\"form-control\" id=\"inputEmail4\" placeholder=\"Email\">\n        </div>\n        <div class=\"form-group col-md-6\">\n          <label for=\"inputPassword4\">Password</label>\n          <input type=\"password\" class=\"form-control\" id=\"inputPassword4\" placeholder=\"Password\">\n        </div>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"inputAddress\">Address</label>\n        <input type=\"text\" class=\"form-control\" id=\"inputAddress\" placeholder=\"1234 Main St\">\n      </div>\n      <div class=\"form-group\">\n        <label for=\"inputAddress2\">Address 2</label>\n        <input type=\"text\" class=\"form-control\" id=\"inputAddress2\" placeholder=\"Apartment, studio, or floor\">\n      </div>\n      <div class=\"form-row\">\n        <div class=\"form-group col-md-6\">\n          <label for=\"inputCity\">City</label>\n          <input type=\"text\" class=\"form-control\" id=\"inputCity\">\n        </div>\n        <div class=\"form-group col-md-4\">\n          <label for=\"inputState\">Province</label>\n          <select id=\"inputState\" class=\"form-control\">\n            <option selected>Ontairio</option>\n            <option selected>Ouebec</option>\n            <option>...</option>\n          </select>\n        </div>\n        <div class=\"form-group col-md-2\">\n          <label for=\"inputZip\">Zip</label>\n          <input type=\"text\" class=\"form-control\" id=\"inputZip\">\n        </div>\n      </div>\n      <div class=\"form-group\">\n\n      </div>\n      <button type=\"submit\" class=\"btn btn-primary\">Register</button>\n    </form>\n  </div>\n\n\n"
+
+/***/ }),
+
+/***/ "./src/app/home/home.component.ts":
+/*!****************************************!*\
+  !*** ./src/app/home/home.component.ts ***!
+  \****************************************/
+/*! exports provided: HomeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var ngx_bootstrap_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ngx-bootstrap/carousel */ "./node_modules/ngx-bootstrap/carousel/fesm5/ngx-bootstrap-carousel.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomeComponent = /** @class */ (function () {
+    function HomeComponent() {
+    }
+    HomeComponent.prototype.ngOnInit = function () {
+        $('.list_dt').on('click', function () {
+            $('.list_dd').stop();
+            $(this).siblings('dt').removeAttr('id');
+            if ($(this).attr('id') === 'open') {
+                $(this).removeAttr('id').siblings('dd').slideUp();
+            }
+            else {
+                $(this).attr('id', 'open').next().slideDown().siblings('dd').slideUp();
+            }
+        });
+    };
+    HomeComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            template: __webpack_require__(/*! ./home.component.html */ "./src/app/home/home.component.html"),
+            styles: [__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")],
+            providers: [
+                { provide: ngx_bootstrap_carousel__WEBPACK_IMPORTED_MODULE_1__["CarouselConfig"], useValue: { interval: 300, noPause: true, showIndicators: true } }
+            ]
+        }),
+        __metadata("design:paramtypes", [])
+    ], HomeComponent);
+    return HomeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/product/product.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/product/product.component.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "li{\r\n  list-style: none;\r\n}\r\nh4{\r\n  font-weight: bold;\r\n  color: rgb(4, 121, 95);\r\n}\r\n.card{\r\n  float: left;\r\n\r\n}\r\n#srchbar{\r\n  float: left;\r\n  margin-top: 20px;\r\n  margin-bottom: 20px;\r\n}\r\n.shopCart{\r\n  float: left;\r\n  width: 20%;\r\n  height: 100%;\r\n  border-right: 1px groove grey;\r\n  border-left: 1px groove grey;\r\n  padding: 10px;\r\n}\r\n#clk{\r\n  margin-top: 60px;\r\n  clear: both;\r\n}\r\n/*----------------------tab--------------------------*/\r\n.tabHead{\r\n  color: rgb(1, 145, 97);\r\n}\r\n.tabframe{\r\n  background-color: rgb(212, 241, 228);\r\n  /*border:1px solid black;*/\r\n}\r\n.tabContent{\r\n  overflow: hidden;\r\n  float: right;\r\n  width: 100%;\r\n  /*border-right: 1px solid black;*/\r\n  height: 750px;\r\n}\r\n.radio-inline{\r\n  font-weight: bold;\r\n}\r\n.radio-inline:hover{\r\n  text-decoration: underline;\r\n}\r\n.card{\r\n  width:16%;\r\n  height: 48%;\r\n  margin-left: 3%;\r\n  margin-top: 1.5%;\r\n  border:none;\r\n  background-color:white;\r\n\r\n\r\n}\r\n.card-body span{\r\n  color: rgb(6, 139, 111);\r\n  font-weight: bold;\r\n}\r\n.card-body button{\r\n  background-color: rgb(117, 186, 190);\r\n  border-radius: 5px;\r\n  box-shadow: none;\r\n  width:46%;\r\n  font-size: 8px;\r\n  font-weight: bold;\r\n  margin-left: 3px;\r\n  float: left;\r\n}\r\n.card-img-top{\r\n\r\n  overflow: hidden;\r\n  width:100%;\r\n}\r\n/*-----------------------cart-----------------------------------------*/\r\n.cart{\r\n\tposition: fixed;\r\n\toverflow: hidden;\r\n\ttop:10%;\r\n\tright: 3%;\r\n\twidth: 14%;\r\n\theight: auto;\r\n\tborder:2px solid black;\r\n\tborder-radius: 5px;\r\n}\r\n.cart>button{\r\n  background-color: rgb(117, 186, 190);\r\n  border-radius: 5px;\r\n  font-weight: bold;\r\n  font-size: 12px;\r\n\toverflow: hidden;\r\n\twidth: 28%;\r\n\tmargin-left: 10px;\r\n}\r\n.cart>img{\r\n\theight: 20px;\r\n\twidth: 20px;\r\n}\r\n.line{\r\n  margin-top:2px;\r\n  border: 1px solid black;\r\n  width:100%;\r\n}\r\n.cart li{\r\n  color: rgb(1, 42, 58);\r\n  font-weight: bold;\r\n}\r\n.cartTr{\r\n\r\n  font-weight: bold;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZHVjdC9wcm9kdWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBaUI7Q0FDbEI7QUFDRDtFQUNFLGtCQUFrQjtFQUNsQix1QkFBdUI7Q0FDeEI7QUFDRDtFQUNFLFlBQVk7O0NBRWI7QUFDRDtFQUNFLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsb0JBQW9CO0NBQ3JCO0FBQ0Q7RUFDRSxZQUFZO0VBQ1osV0FBVztFQUNYLGFBQWE7RUFDYiw4QkFBOEI7RUFDOUIsNkJBQTZCO0VBQzdCLGNBQWM7Q0FDZjtBQUNEO0VBQ0UsaUJBQWlCO0VBQ2pCLFlBQVk7Q0FDYjtBQUNELHVEQUF1RDtBQUV2RDtFQUNFLHVCQUF1QjtDQUN4QjtBQUNEO0VBQ0UscUNBQXFDO0VBQ3JDLDJCQUEyQjtDQUM1QjtBQUNEO0VBQ0UsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYixZQUFZO0VBQ1osa0NBQWtDO0VBQ2xDLGNBQWM7Q0FDZjtBQUNEO0VBQ0Usa0JBQWtCO0NBQ25CO0FBQ0Q7RUFDRSwyQkFBMkI7Q0FDNUI7QUFDRDtFQUNFLFVBQVU7RUFDVixZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLGlCQUFpQjtFQUNqQixZQUFZO0VBQ1osdUJBQXVCOzs7Q0FHeEI7QUFDRDtFQUNFLHdCQUF3QjtFQUN4QixrQkFBa0I7Q0FDbkI7QUFDRDtFQUNFLHFDQUFxQztFQUNyQyxtQkFBbUI7RUFDbkIsaUJBQWlCO0VBQ2pCLFVBQVU7RUFDVixlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLGlCQUFpQjtFQUNqQixZQUFZO0NBQ2I7QUFFRDs7RUFFRSxpQkFBaUI7RUFDakIsV0FBVztDQUNaO0FBQ0Qsd0VBQXdFO0FBQ3hFO0NBQ0MsZ0JBQWdCO0NBQ2hCLGlCQUFpQjtDQUNqQixRQUFRO0NBQ1IsVUFBVTtDQUNWLFdBQVc7Q0FDWCxhQUFhO0NBQ2IsdUJBQXVCO0NBQ3ZCLG1CQUFtQjtDQUNuQjtBQUVEO0VBQ0UscUNBQXFDO0VBQ3JDLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0NBQ2pCLGlCQUFpQjtDQUNqQixXQUFXO0NBQ1gsa0JBQWtCO0NBQ2xCO0FBQ0Q7Q0FDQyxhQUFhO0NBQ2IsWUFBWTtDQUNaO0FBQ0Q7RUFDRSxlQUFlO0VBQ2Ysd0JBQXdCO0VBQ3hCLFdBQVc7Q0FDWjtBQUNEO0VBQ0Usc0JBQXNCO0VBQ3RCLGtCQUFrQjtDQUNuQjtBQUNEOztFQUVFLGtCQUFrQjtDQUNuQiIsImZpbGUiOiJzcmMvYXBwL3Byb2R1Y3QvcHJvZHVjdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibGl7XHJcbiAgbGlzdC1zdHlsZTogbm9uZTtcclxufVxyXG5oNHtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxuICBjb2xvcjogcmdiKDQsIDEyMSwgOTUpO1xyXG59XHJcbi5jYXJke1xyXG4gIGZsb2F0OiBsZWZ0O1xyXG5cclxufVxyXG4jc3JjaGJhcntcclxuICBmbG9hdDogbGVmdDtcclxuICBtYXJnaW4tdG9wOiAyMHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuLnNob3BDYXJ0e1xyXG4gIGZsb2F0OiBsZWZ0O1xyXG4gIHdpZHRoOiAyMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGJvcmRlci1yaWdodDogMXB4IGdyb292ZSBncmV5O1xyXG4gIGJvcmRlci1sZWZ0OiAxcHggZ3Jvb3ZlIGdyZXk7XHJcbiAgcGFkZGluZzogMTBweDtcclxufVxyXG4jY2xre1xyXG4gIG1hcmdpbi10b3A6IDYwcHg7XHJcbiAgY2xlYXI6IGJvdGg7XHJcbn1cclxuLyotLS0tLS0tLS0tLS0tLS0tLS0tLS0tdGFiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0qL1xyXG5cclxuLnRhYkhlYWR7XHJcbiAgY29sb3I6IHJnYigxLCAxNDUsIDk3KTtcclxufVxyXG4udGFiZnJhbWV7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIxMiwgMjQxLCAyMjgpO1xyXG4gIC8qYm9yZGVyOjFweCBzb2xpZCBibGFjazsqL1xyXG59XHJcbi50YWJDb250ZW50e1xyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgZmxvYXQ6IHJpZ2h0O1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIC8qYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgYmxhY2s7Ki9cclxuICBoZWlnaHQ6IDc1MHB4O1xyXG59XHJcbi5yYWRpby1pbmxpbmV7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbn1cclxuLnJhZGlvLWlubGluZTpob3ZlcntcclxuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG4uY2FyZHtcclxuICB3aWR0aDoxNiU7XHJcbiAgaGVpZ2h0OiA0OCU7XHJcbiAgbWFyZ2luLWxlZnQ6IDMlO1xyXG4gIG1hcmdpbi10b3A6IDEuNSU7XHJcbiAgYm9yZGVyOm5vbmU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjp3aGl0ZTtcclxuXHJcblxyXG59XHJcbi5jYXJkLWJvZHkgc3BhbntcclxuICBjb2xvcjogcmdiKDYsIDEzOSwgMTExKTtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4uY2FyZC1ib2R5IGJ1dHRvbntcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTE3LCAxODYsIDE5MCk7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgd2lkdGg6NDYlO1xyXG4gIGZvbnQtc2l6ZTogOHB4O1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIG1hcmdpbi1sZWZ0OiAzcHg7XHJcbiAgZmxvYXQ6IGxlZnQ7XHJcbn1cclxuXHJcbi5jYXJkLWltZy10b3B7XHJcblxyXG4gIG92ZXJmbG93OiBoaWRkZW47XHJcbiAgd2lkdGg6MTAwJTtcclxufVxyXG4vKi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tY2FydC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKi9cclxuLmNhcnR7XHJcblx0cG9zaXRpb246IGZpeGVkO1xyXG5cdG92ZXJmbG93OiBoaWRkZW47XHJcblx0dG9wOjEwJTtcclxuXHRyaWdodDogMyU7XHJcblx0d2lkdGg6IDE0JTtcclxuXHRoZWlnaHQ6IGF1dG87XHJcblx0Ym9yZGVyOjJweCBzb2xpZCBibGFjaztcclxuXHRib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuXHJcbi5jYXJ0PmJ1dHRvbntcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTE3LCAxODYsIDE5MCk7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGZvbnQtc2l6ZTogMTJweDtcclxuXHRvdmVyZmxvdzogaGlkZGVuO1xyXG5cdHdpZHRoOiAyOCU7XHJcblx0bWFyZ2luLWxlZnQ6IDEwcHg7XHJcbn1cclxuLmNhcnQ+aW1ne1xyXG5cdGhlaWdodDogMjBweDtcclxuXHR3aWR0aDogMjBweDtcclxufVxyXG4ubGluZXtcclxuICBtYXJnaW4tdG9wOjJweDtcclxuICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuICB3aWR0aDoxMDAlO1xyXG59XHJcbi5jYXJ0IGxpe1xyXG4gIGNvbG9yOiByZ2IoMSwgNDIsIDU4KTtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4uY2FydFRye1xyXG5cclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/product/product.component.html":
+/*!************************************************!*\
+  !*** ./src/app/product/product.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"jumbotron\">\n    <h1 class=\"display-4\">Hello, Shopping Cart</h1>\n    <p class=\"lead\">This is a simple Shopping Cart with function of add/remove items to shopping cart and calculate total price for a selected item and sum them all</p>\n    <hr class=\"my-4\">\n    <p></p>\n    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>\n</div>\n<div class=\"tabframe\">\n<tabset>\n  <tab>\n    <ng-template tabHeading>\n      <i class=\"tabHead\"><b>Women</b></i>\n    </ng-template>\n    <div class='tabContent'>\n      <div class='shopCart'>\n        <input type=\"text\" id=\"srchbar\" (keyup)=\"onKey($event)\">\n        <button (click)= \"find()\" id=\"srchbtn\">Search </button>\n        <p></p>\n        <p>\n        <br>\n        </p>\n        <h4>Sort By :</h4>\n        <p></p>\n        <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceI()\" > Show All</label>\n        <p></p>\n        <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceX()\" > Less than $301</label>\n        <p></p>\n        <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceY()\"> Between $301 - $600</label>\n        <p></p>\n        <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceZ()\"> Greater than $600</label>\n      </div>\n      <div [ngSwitch]=\"priceRange\">\n\n          <div *ngSwitchCase=\"0\">\n            <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n              <div class=\"card-body\">\n                <img class=\"card-img-top\" src=\"{{products.img}}\" alt=\"Card image cap\" >\n                <h5 class=\"card-title\">Title:{{products.title}}</h5>\n                <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n                <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n                <button class='add' (click)= \"add(products.id)\" >Add</button>\n                <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n                <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n              </div>\n            </div>\n          </div>\n\n          <div *ngSwitchCase=\"1\">\n            <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n              <div class=\"card-body\" *ngIf=\"products.price<=300\">\n                <img class=\"card-img-top\" src=\"{{products.img}}\" alt=\"Card image cap\" >\n                <h5 class=\"card-title\">Title:{{products.title}}</h5>\n                <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n                <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n                <button class='add' (click)= \"add(products.id)\" >Add</button>\n                <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n                <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n              </div>\n            </div>\n          </div>\n\n          <div *ngSwitchCase=\"2\">\n              <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n                <div class=\"card-body\" *ngIf=\"products.price<=600 && products.price>300 \">\n                  <img class=\"card-img-top\" src=\"{{products.img}}\" alt=\"Card image cap\" >\n                  <h5 class=\"card-title\">Title:{{products.title}}</h5>\n                  <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n                  <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n                  <button class='add' (click)= \"add(products.id)\" >Add</button>\n                  <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n                  <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n                </div>\n              </div>\n            </div>\n\n          <div *ngSwitchCase=\"3\">\n            <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n              <div class=\"card-body\" *ngIf=\"products.price>600 \">\n                <img class=\"card-img-top\" src=\"{{products.img}}\" alt=\"Card image cap\" >\n                <h5 class=\"card-title\">Title:{{products.title}}</h5>\n                <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n                <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n                <button class='add' (click)= \"add(products.id)\" >Add</button>\n                <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n                <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n              </div>\n            </div>\n          </div>\n\n          <div *ngSwitchDefault>\n            <div class=\"card col-md-3\" *ngFor=\"let products of products\">\n              <div class=\"card-body\">\n                <img class=\"card-img-top\" src=\"{{products.img}}\" alt=\"Card image cap\" >\n                <h5 class=\"card-title\">Title:{{products.title}}</h5>\n                <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n                <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n                <button class='add' (click)= \"add(products.id)\" >Add</button>\n                <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n                <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n              </div>\n            </div>\n          </div>\n        </div>\n    </div>\n  </tab>\n  <tab>\n    <ng-template tabHeading>\n      <i class=\"tabHead\"><b>Men's</b></i>\n    </ng-template>\n    <div class='tabContent'>\n      <div class='shopCart'>\n      <input type=\"text\" id=\"srchbar\" (keyup)=\"onKey($event)\">\n      <button (click)= \"find()\" id=\"srchbtn\">Search </button>\n      <p></p>\n      <p>\n      <br>\n      </p>\n      <h4>Sort By :</h4>\n      <p></p>\n      <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceI()\" > Show All</label>\n      <p></p>\n      <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceX()\" > Less than $301</label>\n      <p></p>\n      <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceY()\"> Between $301 - $600</label>\n      <p></p>\n      <label class=\"radio-inline\"><input type=\"radio\" name=\"optradio\" (click) = \"sortPriceZ()\"> Greater than $600</label>\n\n\n    </div>\n    <div [ngSwitch]=\"priceRange\">\n\n      <div *ngSwitchCase=\"0\">\n        <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n          <div class=\"card-body\">\n            <img class=\"card-img-top\" src=\"{{products.img2}}\" alt=\"Card image cap\" >\n            <h5 class=\"card-title\">Title:{{products.title}}</h5>\n            <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n            <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n            <button class='add' (click)= \"add(products.id)\" >Add</button>\n            <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n            <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n          </div>\n        </div>\n      </div>\n\n      <div *ngSwitchCase=\"1\">\n        <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n          <div class=\"card-body\" *ngIf=\"products.price<=300\">\n            <img class=\"card-img-top\" src=\"{{products.img2}}\" alt=\"Card image cap\" >\n            <h5 class=\"card-title\">Title:{{products.title}}</h5>\n            <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n            <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n            <button class='add' (click)= \"add(products.id)\" >Add</button>\n            <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n            <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n          </div>\n        </div>\n      </div>\n\n      <div *ngSwitchCase=\"2\">\n          <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n            <div class=\"card-body\" *ngIf=\"products.price<=600 && products.price>300 \">\n              <img class=\"card-img-top\" src=\"{{products.img2}}\" alt=\"Card image cap\" >\n              <h5 class=\"card-title\">Title:{{products.title}}</h5>\n              <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n              <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n              <button class='add' (click)= \"add(products.id)\" >Add</button>\n              <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n              <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n            </div>\n          </div>\n        </div>\n\n      <div *ngSwitchCase=\"3\">\n        <div class=\"card col-md-3\" *ngFor=\"let products of products\" >\n          <div class=\"card-body\" *ngIf=\"products.price>600 \">\n            <img class=\"card-img-top\" src=\"{{products.img2}}\" alt=\"Card image cap\" >\n            <h5 class=\"card-title\">Title:{{products.title}}</h5>\n            <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n            <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n            <button class='add' (click)= \"add(products.id)\" >Add</button>\n            <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n            <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n          </div>\n        </div>\n      </div>\n\n      <div *ngSwitchDefault>\n        <div class=\"card col-md-3\" *ngFor=\"let products of products\">\n          <div class=\"card-body\">\n            <img class=\"card-img-top\" src=\"{{products.img2}}\" alt=\"Card image cap\" >\n            <h5 class=\"card-title\">Title:{{products.title}}</h5>\n            <h5 class=\"card-title\">Price: ${{products.price}}</h5>\n            <p class=\"card-text\">Selected(pieces): <span>{{products.quantity}}</span></p>\n            <button class='add' (click)= \"add(products.id)\" >Add</button>\n            <button class='delete' (click)= \"delete(products.id)\" >Remove</button>\n            <button class='clear' (click)= \"clear(products.id)\" >Clear</button>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n  </tab>\n</tabset>\n</div>\n<div class=\"cart\">\n    <span><img src=\"assets/img/cart.png\">Your Selected Items:</span>\n    <div class=\"line\"></div>\n    <table id=\"post{{idx}}\" *ngFor=\"let products of products; let idx = index\">\n    <td >\n      <tr *ngIf=\"products.quantity != 0\" class=\"cartTr\"> &#160;Item: &#160;{{products.title}}  </tr>\n    </td>\n    <td >\n      <tr *ngIf=\"products.quantity != 0\" class=\"cartTr\"> &#160; x {{products.quantity}}  </tr>\n    </td>\n    <td >\n      <tr *ngIf=\"products.quantity != 0\" class=\"cartTr\"> &#160; &#160;Price:${{products.totalPrice}}  </tr>\n    </td>\n    </table>\n    <div class=\"line\"></div>\n    <button>Checkout</button>\n    <button class='clear' (click)= \"clearCart()\" >ClearAll</button>\n    <div class=\"line\"></div>\n    <h4>Total Price : $ {{total}}</h4>\n\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/product/product.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/product/product.component.ts ***!
+  \**********************************************/
+/*! exports provided: ProductComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductComponent", function() { return ProductComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -271,44 +388,182 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
-var Page1Component = /** @class */ (function () {
-    function Page1Component() {
-        this.num = 0;
-        this.price = 199;
+var ProductComponent = /** @class */ (function () {
+    function ProductComponent() {
+        /*item array */
+        this.products = [
+            {
+                'id': 1,
+                'title': 'Air1',
+                'price': 100,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth1.jpg',
+                'img2': 'assets/img/cloth3.jpg'
+            },
+            {
+                'id': 2,
+                'title': 'Air2',
+                'price': 200,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth2.jpg',
+                'img2': 'assets/img/cloth1.jpg'
+            },
+            {
+                'id': 3,
+                'title': 'Air3',
+                'price': 300,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth3.jpg',
+                'img2': 'assets/img/cloth2.jpg'
+            },
+            {
+                'id': 4,
+                'title': 'Air4',
+                'price': 400,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth2.jpg',
+                'img2': 'assets/img/cloth3.jpg'
+            },
+            {
+                'id': 5,
+                'title': 'Air5',
+                'price': 500,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth1.jpg',
+                'img2': 'assets/img/cloth3.jpg'
+            },
+            {
+                'id': 6,
+                'title': 'Air6',
+                'price': 600,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth3.jpg',
+                'img2': 'assets/img/cloth2.jpg'
+            },
+            {
+                'id': 7,
+                'title': 'Air7',
+                'price': 700,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth2.jpg',
+                'img2': 'assets/img/cloth2.jpg'
+            },
+            {
+                'id': 8,
+                'title': 'Air8',
+                'price': 800,
+                'quantity': 0,
+                'totalPrice': 0,
+                'img': 'assets/img/cloth1.jpg',
+                'img2': 'assets/img/cloth3.jpg'
+            }
+        ];
+        /*varibles */
         this.total = 0;
+        this.counter = 0;
+        this.newArray = [];
+        this.priceRange = 0;
     }
-    Page1Component.prototype.add = function () {
-        this.num++;
-        this.total = this.num * this.price;
-    };
-    ;
-    Page1Component.prototype.delete = function () {
-        if (this.num > 0) {
-            this.num--;
+    ProductComponent.prototype.add = function (number) {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].id === number) {
+                this.products[i].quantity += 1;
+                this.products[i].totalPrice = this.products[i].price * this.products[i].quantity;
+                this.counter = i + 1;
+            }
         }
-        else {
-            this.num = 0;
-        }
-        ;
-        this.total = this.num * this.price;
+        this.totalPrice();
     };
-    ;
-    Page1Component.prototype.clear = function () {
-        this.num = 0;
+    ProductComponent.prototype.delete = function (number) {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].id === number) {
+                if (this.products[i].quantity > 0) {
+                    this.products[i].quantity -= 1;
+                    this.products[i].totalPrice = this.products[i].price * this.products[i].quantity;
+                }
+            }
+        }
+        this.totalPrice();
+    };
+    ProductComponent.prototype.clear = function (number) {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].id === number) {
+                this.products[i].quantity = 0;
+                this.products[i].totalPrice = 0;
+            }
+        }
+        this.totalPrice();
+    };
+    ProductComponent.prototype.clearCart = function () {
+        for (var i = 0; i < this.products.length; i++) {
+            this.products[i].quantity = 0;
+            this.products[i].totalPrice = 0;
+            this.total = 0;
+        }
+    };
+    ProductComponent.prototype.onKey = function (event) {
+        this.srchtext = event.target.value;
+    };
+    ProductComponent.prototype.find = function () {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].title === this.srchtext) {
+                alert('find');
+            }
+        }
+    };
+    ProductComponent.prototype.totalPrice = function () {
         this.total = 0;
+        for (var i = 0; i < this.products.length; i++) {
+            this.total += (this.products[i].price * this.products[i].quantity);
+        }
     };
-    ;
-    Page1Component = __decorate([
+    ProductComponent.prototype.sortPriceI = function () {
+        this.priceRange = 0;
+    };
+    ProductComponent.prototype.sortPriceY = function () {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].price <= 600 && this.products[i].price > 300) {
+                this.priceRange = 2;
+                break;
+            }
+        }
+    };
+    ProductComponent.prototype.sortPriceZ = function () {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].price > 600) {
+                this.priceRange = 3;
+                break;
+            }
+        }
+    };
+    ProductComponent.prototype.sortPriceX = function () {
+        for (var i = 0; i < this.products.length; i++) {
+            if (this.products[i].price <= 300) {
+                this.priceRange = 1;
+                break;
+            }
+        }
+    };
+    ProductComponent.prototype.ngOnInit = function () {
+    };
+    ProductComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-page1',
-            template: __webpack_require__(/*! ./page1.component.html */ "./src/app/page1/page1.component.html"),
-            styles: [__webpack_require__(/*! ./page1.component.css */ "./src/app/page1/page1.component.css")]
+            // tslint:disable-next-line:component-selector
+            selector: 'demo-modal-service-static',
+            template: __webpack_require__(/*! ./product.component.html */ "./src/app/product/product.component.html"),
+            styles: [__webpack_require__(/*! ./product.component.css */ "./src/app/product/product.component.css")]
         })
-    ], Page1Component);
-    return Page1Component;
+    ], ProductComponent);
+    return ProductComponent;
 }());
 
-;
 
 
 /***/ }),
@@ -374,7 +629,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\angular\demo\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\angular\project\src\main.ts */"./src/main.ts");
 
 
 /***/ })
