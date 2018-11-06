@@ -1,0 +1,118 @@
+li{
+  list-style: none;
+}
+h4{
+  font-weight: bold;
+  color: rgb(4, 121, 95);
+}
+.card{
+  float: left;
+
+}
+#srchbar{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.shopCart{
+  float: left;
+  width: 20%;
+  height: 100%;
+  border-right: 1px groove grey;
+  border-left: 1px groove grey;
+  padding: 10px;
+}
+#clk{
+  margin-top: 60px;
+  clear: both;
+}
+/*----------------------tab--------------------------*/
+
+.tabHead{
+  color: rgb(1, 145, 97);
+}
+.tabframe{
+  background-color: rgb(212, 241, 228);
+  /*border:1px solid black;*/
+}
+.tabContent{
+  overflow: hidden;
+  float: right;
+  width: 100%;
+  /*border-right: 1px solid black;*/
+  height: 750px;
+}
+.radio-inline{
+  font-weight: bold;
+}
+.radio-inline:hover{
+  text-decoration: underline;
+}
+.card{
+  width:16%;
+  height: 48%;
+  margin-left: 3%;
+  margin-top: 1.5%;
+  border:none;
+  background-color:white;
+
+
+}
+.card-body span{
+  color: rgb(6, 139, 111);
+  font-weight: bold;
+}
+.card-body button{
+  background-color: rgb(117, 186, 190);
+  border-radius: 5px;
+  box-shadow: none;
+  width:46%;
+  font-size: 8px;
+  font-weight: bold;
+  margin-left: 3px;
+  float: left;
+}
+
+.card-img-top{
+
+  overflow: hidden;
+  width:100%;
+}
+/*-----------------------cart-----------------------------------------*/
+.cart{
+	position: fixed;
+	overflow: hidden;
+	top:10%;
+	right: 3%;
+	width: 14%;
+	height: auto;
+	border:2px solid black;
+	border-radius: 5px;
+}
+
+.cart>button{
+  background-color: rgb(117, 186, 190);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+	overflow: hidden;
+	width: 28%;
+	margin-left: 10px;
+}
+.cart>img{
+	height: 20px;
+	width: 20px;
+}
+.line{
+  margin-top:2px;
+  border: 1px solid black;
+  width:100%;
+}
+.cart li{
+  color: rgb(1, 42, 58);
+  font-weight: bold;
+}
+.cartTr{
+
+  font-weight: bold;
+}

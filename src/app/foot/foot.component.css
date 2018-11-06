@@ -1,0 +1,46 @@
+li{
+  list-style: none;
+}
+.foot2{
+  clear: both;
+  margin-top: 10px;
+	height: 25px;
+	width: 100%;
+
+}
+.foot2>li{
+	float: left;
+	margin:0 20px;
+}
+.foot2>span{
+	float: right;
+}
+.foot{
+	width: 98%;
+  height: 300px;
+  margin-top: 800px;
+  padding-top: 20px;
+  border-top: 2px solid black;
+  clear: both;
+  border-bottom: 2px solid black;
+
+}
+.footContent{
+	width: 25%;
+	height: 100%;
+	/*border:1px solid red;*/
+	float:left;
+}
+.footContent>li{
+	margin-top: 10px;
+	text-align: center;
+	color: #333;
+}
+.footContent>li>a{
+	color: #555;
+
+}
+.foot2>li>a{
+	color: #555;
+
+}

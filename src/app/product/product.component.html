@@ -1,0 +1,227 @@
+<div class="jumbotron">
+    <h1 class="display-4">Hello, Shopping Cart</h1>
+    <p class="lead">This is a simple Shopping Cart with function of add/remove items to shopping cart and calculate total price for a selected item and sum them all</p>
+    <hr class="my-4">
+    <p></p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<div class="tabframe">
+<tabset>
+  <tab>
+    <ng-template tabHeading>
+      <i class="tabHead"><b>Women</b></i>
+    </ng-template>
+    <div class='tabContent'>
+      <div class='shopCart'>
+        <input type="text" id="srchbar" (keyup)="onKey($event)">
+        <button (click)= "find()" id="srchbtn">Search </button>
+        <p></p>
+        <p>
+        <br>
+        </p>
+        <h4>Sort By :</h4>
+        <p></p>
+        <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceI()" > Show All</label>
+        <p></p>
+        <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceX()" > Less than $301</label>
+        <p></p>
+        <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceY()"> Between $301 - $600</label>
+        <p></p>
+        <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceZ()"> Greater than $600</label>
+      </div>
+      <div [ngSwitch]="priceRange">
+
+          <div *ngSwitchCase="0">
+            <div class="card col-md-3" *ngFor="let products of products" >
+              <div class="card-body">
+                <img class="card-img-top" src="{{products.img}}" alt="Card image cap" >
+                <h5 class="card-title">Title:{{products.title}}</h5>
+                <h5 class="card-title">Price: ${{products.price}}</h5>
+                <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+                <button class='add' (click)= "add(products.id)" >Add</button>
+                <button class='delete' (click)= "delete(products.id)" >Remove</button>
+                <button class='clear' (click)= "clear(products.id)" >Clear</button>
+              </div>
+            </div>
+          </div>
+
+          <div *ngSwitchCase="1">
+            <div class="card col-md-3" *ngFor="let products of products" >
+              <div class="card-body" *ngIf="products.price<=300">
+                <img class="card-img-top" src="{{products.img}}" alt="Card image cap" >
+                <h5 class="card-title">Title:{{products.title}}</h5>
+                <h5 class="card-title">Price: ${{products.price}}</h5>
+                <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+                <button class='add' (click)= "add(products.id)" >Add</button>
+                <button class='delete' (click)= "delete(products.id)" >Remove</button>
+                <button class='clear' (click)= "clear(products.id)" >Clear</button>
+              </div>
+            </div>
+          </div>
+
+          <div *ngSwitchCase="2">
+              <div class="card col-md-3" *ngFor="let products of products" >
+                <div class="card-body" *ngIf="products.price<=600 && products.price>300 ">
+                  <img class="card-img-top" src="{{products.img}}" alt="Card image cap" >
+                  <h5 class="card-title">Title:{{products.title}}</h5>
+                  <h5 class="card-title">Price: ${{products.price}}</h5>
+                  <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+                  <button class='add' (click)= "add(products.id)" >Add</button>
+                  <button class='delete' (click)= "delete(products.id)" >Remove</button>
+                  <button class='clear' (click)= "clear(products.id)" >Clear</button>
+                </div>
+              </div>
+            </div>
+
+          <div *ngSwitchCase="3">
+            <div class="card col-md-3" *ngFor="let products of products" >
+              <div class="card-body" *ngIf="products.price>600 ">
+                <img class="card-img-top" src="{{products.img}}" alt="Card image cap" >
+                <h5 class="card-title">Title:{{products.title}}</h5>
+                <h5 class="card-title">Price: ${{products.price}}</h5>
+                <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+                <button class='add' (click)= "add(products.id)" >Add</button>
+                <button class='delete' (click)= "delete(products.id)" >Remove</button>
+                <button class='clear' (click)= "clear(products.id)" >Clear</button>
+              </div>
+            </div>
+          </div>
+
+          <div *ngSwitchDefault>
+            <div class="card col-md-3" *ngFor="let products of products">
+              <div class="card-body">
+                <img class="card-img-top" src="{{products.img}}" alt="Card image cap" >
+                <h5 class="card-title">Title:{{products.title}}</h5>
+                <h5 class="card-title">Price: ${{products.price}}</h5>
+                <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+                <button class='add' (click)= "add(products.id)" >Add</button>
+                <button class='delete' (click)= "delete(products.id)" >Remove</button>
+                <button class='clear' (click)= "clear(products.id)" >Clear</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </tab>
+  <tab>
+    <ng-template tabHeading>
+      <i class="tabHead"><b>Men's</b></i>
+    </ng-template>
+    <div class='tabContent'>
+      <div class='shopCart'>
+      <input type="text" id="srchbar" (keyup)="onKey($event)">
+      <button (click)= "find()" id="srchbtn">Search </button>
+      <p></p>
+      <p>
+      <br>
+      </p>
+      <h4>Sort By :</h4>
+      <p></p>
+      <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceI()" > Show All</label>
+      <p></p>
+      <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceX()" > Less than $301</label>
+      <p></p>
+      <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceY()"> Between $301 - $600</label>
+      <p></p>
+      <label class="radio-inline"><input type="radio" name="optradio" (click) = "sortPriceZ()"> Greater than $600</label>
+
+
+    </div>
+    <div [ngSwitch]="priceRange">
+
+      <div *ngSwitchCase="0">
+        <div class="card col-md-3" *ngFor="let products of products" >
+          <div class="card-body">
+            <img class="card-img-top" src="{{products.img2}}" alt="Card image cap" >
+            <h5 class="card-title">Title:{{products.title}}</h5>
+            <h5 class="card-title">Price: ${{products.price}}</h5>
+            <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+            <button class='add' (click)= "add(products.id)" >Add</button>
+            <button class='delete' (click)= "delete(products.id)" >Remove</button>
+            <button class='clear' (click)= "clear(products.id)" >Clear</button>
+          </div>
+        </div>
+      </div>
+
+      <div *ngSwitchCase="1">
+        <div class="card col-md-3" *ngFor="let products of products" >
+          <div class="card-body" *ngIf="products.price<=300">
+            <img class="card-img-top" src="{{products.img2}}" alt="Card image cap" >
+            <h5 class="card-title">Title:{{products.title}}</h5>
+            <h5 class="card-title">Price: ${{products.price}}</h5>
+            <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+            <button class='add' (click)= "add(products.id)" >Add</button>
+            <button class='delete' (click)= "delete(products.id)" >Remove</button>
+            <button class='clear' (click)= "clear(products.id)" >Clear</button>
+          </div>
+        </div>
+      </div>
+
+      <div *ngSwitchCase="2">
+          <div class="card col-md-3" *ngFor="let products of products" >
+            <div class="card-body" *ngIf="products.price<=600 && products.price>300 ">
+              <img class="card-img-top" src="{{products.img2}}" alt="Card image cap" >
+              <h5 class="card-title">Title:{{products.title}}</h5>
+              <h5 class="card-title">Price: ${{products.price}}</h5>
+              <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+              <button class='add' (click)= "add(products.id)" >Add</button>
+              <button class='delete' (click)= "delete(products.id)" >Remove</button>
+              <button class='clear' (click)= "clear(products.id)" >Clear</button>
+            </div>
+          </div>
+        </div>
+
+      <div *ngSwitchCase="3">
+        <div class="card col-md-3" *ngFor="let products of products" >
+          <div class="card-body" *ngIf="products.price>600 ">
+            <img class="card-img-top" src="{{products.img2}}" alt="Card image cap" >
+            <h5 class="card-title">Title:{{products.title}}</h5>
+            <h5 class="card-title">Price: ${{products.price}}</h5>
+            <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+            <button class='add' (click)= "add(products.id)" >Add</button>
+            <button class='delete' (click)= "delete(products.id)" >Remove</button>
+            <button class='clear' (click)= "clear(products.id)" >Clear</button>
+          </div>
+        </div>
+      </div>
+
+      <div *ngSwitchDefault>
+        <div class="card col-md-3" *ngFor="let products of products">
+          <div class="card-body">
+            <img class="card-img-top" src="{{products.img2}}" alt="Card image cap" >
+            <h5 class="card-title">Title:{{products.title}}</h5>
+            <h5 class="card-title">Price: ${{products.price}}</h5>
+            <p class="card-text">Selected(pieces): <span>{{products.quantity}}</span></p>
+            <button class='add' (click)= "add(products.id)" >Add</button>
+            <button class='delete' (click)= "delete(products.id)" >Remove</button>
+            <button class='clear' (click)= "clear(products.id)" >Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </tab>
+</tabset>
+</div>
+<div class="cart">
+    <span><img src="assets/img/cart.png">Your Selected Items:</span>
+    <div class="line"></div>
+    <table id="post{{idx}}" *ngFor="let products of products; let idx = index">
+    <td >
+      <tr *ngIf="products.quantity != 0" class="cartTr"> &#160;Item: &#160;{{products.title}}  </tr>
+    </td>
+    <td >
+      <tr *ngIf="products.quantity != 0" class="cartTr"> &#160; x {{products.quantity}}  </tr>
+    </td>
+    <td >
+      <tr *ngIf="products.quantity != 0" class="cartTr"> &#160; &#160;Price:${{products.totalPrice}}  </tr>
+    </td>
+    </table>
+    <div class="line"></div>
+    <button>Checkout</button>
+    <button class='clear' (click)= "clearCart()" >ClearAll</button>
+    <div class="line"></div>
+    <h4>Total Price : $ {{total}}</h4>
+
+</div>

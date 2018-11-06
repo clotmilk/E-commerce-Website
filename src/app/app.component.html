@@ -1,274 +1,49 @@
 <div class="container">
-<!---------NAV BAR------------>
-	<nav class="navbar navbar-default navbar-fixed-top" id="navbarid">
-	  <div class="container">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">ClotMilk</a>
-	    </div>
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li><a href="#">Product</a></li>
-	        <li><a href="#">Sport</a></li>
-	        <li><a href="#">Music</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SHOP<span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Hats</a></li>
-	            <li><a href="#">Shoes</a></li>
-	            <li><a href="#">Cloth</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">New Arrival</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">For Fun</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	      <form class="navbar-form navbar-left">
-	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
-	        </div>
-	        <button id="kkk" type="submit" class="btn btn-default">GO</button>
+  <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Location</a>
+          <a class="dropdown-item" href="#">Contact us</a>
+          <a class="dropdown-item" href="#">Career</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" >Membership</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="product">Product</a>
+      </li>
+      <li class="nav-item">
+          <input class="srchText" type="text" placeholder="Search">
+          <button id="kkk" type="submit" class="btn btn-default">GO</button>
 	        <img src="assets/img/search.png" id="searchimg">
-	      </form>
-	      <ul class="nav navbar-nav navbar-right">
-	      	<li class="clock">
-	      		<div class="clock center">
-	      			<div class="unit" id="seconds"></div>
-	      			<div class="unit" id="minutes"></div>
-	      			<div class="unit" id="hours"></div>
-	      		</div>
-	      	</li>
-	        <li id="loginBtn">Login</li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Location</a></li>
-	            <li><a href="#">Career</a></li>
-	            <li><a href="#">Policy</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Membership</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	
+      </li>
 
+      <li class="nav-item">
+        <a class="nav-link active" id="loginBtn">Login</a>
+      </li>
+    </ul>
 
-	<!-- carousel ------------------------------------------------------------------------------------------------- -->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	  </ol>
-
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
-	    <div class="item active">
-	      <img src="assets/img/blue.jpg">
-	      <div class="carousel-caption">
-	        <h3>Always do what you're afraid to do.</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="assets/img/star3.jpg" alt="...">
-	      <div class="carousel-caption">
-	        <h3>I will prove myself strong when they think I am sick</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="assets/img/tpig.jpg" alt="..." id="pig">
-	      <div class="carousel-caption pigCap">
-	        <button class="pigbtn" value="Learn More">Learn More</button>
-	      </div>
-	    ...
-	  </div>
-
-	  <!-- carousel Controls -->
-	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	  </a>
-	</div>
-	<div>
-	
-	<div class="jumbotron">
-	  <h1>Hello, Manager</h1>
-	  <p>This a commercial website demo project --- RunBin Ju</p>
-	  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-	</div>
-	
-	<!-- carousel ------------------------------------------------------------------------------------------------- -->
-
-	<!-- carousel ------------------------------------------------------------------------------------------------- -->
-	<h1>Product Section</h1>
-	<!-- carousel ------------------------------------------------------------------------------------------------- -->
-
-	<app-page1></app-page1>
-
-	<!-- Modal ------------------------------------------------------------------------------------------------- -->
+  <!-- Modal ------------------------------------------------------------------------------------------------- -->
 	<div class="lgModal animate" id="login1">
-		<img src="assets/img/x.png" id="closeimg">
-		<form action="#" class="modal-content">
-			<h2>Login Modal</h2>
-			<label for="uname">UserName</label>
-			<input type="text" name="uname" placeholder="Enter UserName" required="required"/>
-			<label for="psw">Password</label>
-			<input type="password" name="psw" placeholder="Enter Password" required="required"/>
-			<button type="submit">Submit</button>
-			<label class="checkbox">
-				<input type="checkbox" name="">Keep me login
-			</label>
-		</form>
-	</div>
+      <img src="assets/img/x.png" id="closeimg">
+      <form action="#" class="modal-content">
+        <label for="uname">UserName</label>
+        <input type="text" name="uname" placeholder="Enter UserName" required="required"/>
+        <label for="psw">Password</label>
+        <input type="password" name="psw" placeholder="Enter Password" required="required"/>
+        <button type="submit">Submit</button>
+        <label class="checkbox">
+          <input type="checkbox" name="">Keep me login
+        </label>
+      </form>
+    </div>
 
-	<!-- end of Modal ------------------------------------------------------------------------------------------------- -->
-	<div class="border"></div>
-	
-	
-
-	<!-- foot ------------------------------------------------------------------------------------------------- -->
-
-	<div class="foot">
-		<div class="footContent">
-			<li><h4>Help</h4></li>
-			<li><a href="#">Fina a Store</a></li>
-			<li><a href="#">Store App</a></li>
-			<li><a href="#">Order Status</a></li>
-			<li><a href="#">Shopping Help</a></li>
-			<li><a href="#">Field Trip</a></li>
-			<li><a href="#">Refurbinished and Clearance</a></li>
-			<li><a href="#">Store Camp</a></li>
-		</div>
-		<div class="footContent">
-			<li><h4>About Us</h4></li>
-			<li><a href="#">Newsroom</a></li>
-			<li><a href="#">Leadership</a></li>
-			<li><a href="#">Investors</a></li>
-			<li><a href="#">Event</a></li>
-			<li><a href="#">Contact Us</a></li>
-			<li><a href="#">Job Opportunities</a></li>
-		</div>
-		<div class="footContent">
-			<li><h4>Company Value</h4></li>
-			<li><a href="#">Accessiblity</a></li>
-			<li><a href="#">Enviroment</a></li>
-			<li><a href="#">Privacy</a></li>
-			<li><a href="#">Suppiler Responsibility</a></li>
-		</div>
-		<div class="footContent">
-			<li><h4>Account</h4></li>
-			<li><a href="#">Manage your ID</a></li>
-			<li><a href="#">Store Account</a></li>
-		</div>
-	</div>
-
-	<div class="foot2">
-		<span>Copyright©️ 2018 RunBin Ju. All rights Reserved.</span>
-		<li><a href="#"> Privacy Policy</a></li>
-		<li><a href="#"> Use of Cookies</a></li>
-		<li><a href="#"> Terms of Use</a></li>
-		<li><a href="#"> Legal</a></li>
-		<li><a href="#"> Site Map</a></li>
-	</div>
-	
-	<!--Veritical Nav----------------------------------------------------------------------------------------------------->
-	<div class="sideNav">
-		<dl class="list_dl">
-	        <dt class="list_dt">
-	            <span class="_after"></span>
-	            <p>Home</p>
-	            <i class="list_dt_icon"></i>
-	        </dt>
-	        <dd class="list_dd">
-	            <ul>
-	                <li class="list_li">Home</li>
-	                <li class="list_li">Product</li>
-	                
-	            </ul>
-	        </dd>
-	        <dt class="list_dt">
-	            <span class="_after"></span>
-	            <p>Online</p>
-	            <i class="list_dt_icon"></i>
-	        </dt>
-	        <dd class="list_dd">
-	            <ul>
-	                <li class="list_li">Game</li>
-	                <li class="list_li">Bussiness</li>
-	                <li class="list_li">Bank</li>
-	                <li class="list_li">Service</li>
-	                
-	            </ul>
-	        </dd>
-	        <dt class="list_dt">
-	            <span class="_after"></span>
-	            <p>News</p>
-	            <i class="list_dt_icon"></i>
-	        </dt>
-	        <dd class="list_dd">
-	            <ul>
-	                <li class="list_li">Inter</li>
-	                <li class="list_li">Rockets</li>
-	                <li class="list_li">Canada</li>
-	            </ul>
-	        </dd>
-	        <dt class="list_dt">
-	            <span class="_after"></span>
-	            <p>Map</p>
-	            <i class="list_dt_icon"></i>
-	        </dt>
-	        <dd class="list_dd">
-	            <ul>
-	                <li class="list_li">Toronto</li>
-	                <li class="list_li">Ottawa</li>
-	                <li class="list_li">Hamilton</li>
-	                <l
-	            </ul>
-	        </dd>
-	        <dt class="list_dt">
-	            <span class="_after"></span>
-	            <p>Call Us</p>
-	            <i class="list_dt_icon"></i>
-	        </dt>
-	        <dd class="list_dd">
-	            <ul>
-	                <li class="list_li">613-4653232</li>
-	                <li class="list_li">905-5122546</li>
-	                <li class="list_li">905-5120016</li>
-	            </ul>
-	        </dd>
-	        <dt class="list_dt">
-	            <span class="_after"></span>
-	            <p>Policy</p>
-	            <i class="list_dt_icon"></i>
-	        </dt>
-	        <dd class="list_dd">
-	            <ul>
-	                <li class="list_li">Law</li>
-	                <li class="list_li">Delaration</li>
-	                <li class="list_li">Policy</li>
-	                
-	            </ul>
-	        </dd>
-	    </dl>
-	</div>
-
-
-	
-
-
-<!--end of Container 1 ------------------------------------------------------------------------------------------------- -->
-</div> 
+    <!-- end of Modal ------------------------------------------------------------------------------------------------- -->
+    <router-outlet></router-outlet>
+    <app-foot></app-foot>
+</div>
 
